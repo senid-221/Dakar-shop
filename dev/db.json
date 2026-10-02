@@ -21,122 +21,7 @@
    "created_at": "2026-10-01T09:00:00.000Z"
   }
  ],
- "sessions": [
-  {
-   "id": "464597872a41008e4f7301ef07d9a93e0a37949de29792780547f5142ea30049",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T06:36:01.431Z",
-   "expires_at": "2026-11-01T06:36:01.431Z"
-  },
-  {
-   "id": "7a8f1f73339be69c0ab0893ea3902514ede711ff06cfadde33c477e57faf696a",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T06:36:59.978Z",
-   "expires_at": "2026-11-01T06:36:59.978Z"
-  },
-  {
-   "id": "fc3c595216e38f3938f07455a01474987a455b8716a49d3ae64a79fa0787bafa",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T06:38:38.563Z",
-   "expires_at": "2026-11-01T06:38:38.563Z"
-  },
-  {
-   "id": "b5bf554fc42f0dd76d6d4ea0e9dfb00ee11bd1cd627b1660e0d8ca6ad5e7ab98",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T06:40:28.871Z",
-   "expires_at": "2026-11-01T06:40:28.872Z"
-  },
-  {
-   "id": "79e50acbca7f1310e7e958da7d01a02d79cebf370831fb7479dcb8a37e7474bd",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T06:40:59.193Z",
-   "expires_at": "2026-11-01T06:40:59.193Z"
-  },
-  {
-   "id": "40af6d9c53797fb19372548ea20950f19ebf52cd15a8d17ebac2475c8dc0d8e5",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T06:43:22.808Z",
-   "expires_at": "2026-11-01T06:43:22.808Z"
-  },
-  {
-   "id": "e7790ea3e520905d9afb6b8221d8e7351ab700aca58fe1448a2f12fd65577414",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T06:43:51.684Z",
-   "expires_at": "2026-11-01T06:43:51.684Z"
-  },
-  {
-   "id": "c57f962f912e5e8cf748352fa29e78d21c7c62253f8b30f841df911c0f15051c",
-   "user_id": "00000008-0000-4000-8000-900000000001",
-   "created_at": "2026-10-02T06:43:52.299Z",
-   "expires_at": "2026-11-01T06:43:52.299Z"
-  },
-  {
-   "id": "a79f2c95ca0644d4b2a9d53380ed8665e6c00e5b0bf14b0568312441a4742e15",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T06:44:12.800Z",
-   "expires_at": "2026-11-01T06:44:12.800Z"
-  },
-  {
-   "id": "02bffb898c86bb639ac53c39b3d2e50c51a3b9761a87d5fcd79f45ae98fb7030",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T07:08:17.034Z",
-   "expires_at": "2026-11-01T07:08:17.034Z"
-  },
-  {
-   "id": "77e788e143c52f18f76a1a9be48d2d3985b512ded23375ec2c184338226c2ff7",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T07:08:43.835Z",
-   "expires_at": "2026-11-01T07:08:43.835Z"
-  },
-  {
-   "id": "0171ba260f32d4a43c03dc64a261eaadd6d9351fc8557bff8cf4fa02d9e20caf",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T07:09:04.445Z",
-   "expires_at": "2026-11-01T07:09:04.445Z"
-  },
-  {
-   "id": "2924c05e9806ff03e2191394bddcc00fd0eee922ad7dfccbd5b8eed64b0fa41d",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T07:09:24.338Z",
-   "expires_at": "2026-11-01T07:09:24.338Z"
-  },
-  {
-   "id": "ea77d91a618f508d46efd76586d6178561780ad5deb9e99d21dc23c994f80cf7",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T07:11:24.645Z",
-   "expires_at": "2026-11-01T07:11:24.645Z"
-  },
-  {
-   "id": "82a9b5eb8e51e3d7b9c1383aff442720500ef02837d3d9b731f648187c1a44ef",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T07:25:30.036Z",
-   "expires_at": "2026-11-01T07:25:30.036Z"
-  },
-  {
-   "id": "543dfc2fbe167504853cb420bd696b0279edcf16356b010717c98d5fa3a815ee",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T07:26:21.122Z",
-   "expires_at": "2026-11-01T07:26:21.122Z"
-  },
-  {
-   "id": "114d3cccbbb1d233e434fd1e6373d510e4465cae3b6bbe6ef4f105dc3f72e081",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T07:29:06.388Z",
-   "expires_at": "2026-11-01T07:29:06.388Z"
-  },
-  {
-   "id": "a8241c9dae19884f7aca7d21bc1bbee453b5c91d8f09b178cbb775229f30cb4a",
-   "user_id": "00000008-0000-4000-8000-900000000001",
-   "created_at": "2026-10-02T08:05:09.493Z",
-   "expires_at": "2026-11-01T08:05:09.493Z"
-  },
-  {
-   "id": "2f7c96414dddae117033be071c35fb0f102d64cca7d4e60aef7facd32a70e455",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "created_at": "2026-10-02T08:19:51.716Z",
-   "expires_at": "2026-11-01T08:19:51.716Z"
-  }
- ],
+ "sessions": [],
  "addresses": [
   {
    "id": "0000000b-0000-4000-8000-900000000001",
@@ -204,10 +89,10 @@
    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Baguette_mie.jpg/960px-Baguette_mie.jpg",
    "price": 300,
    "compare_price": null,
-   "stock": 67,
+   "stock": 120,
    "active": true,
    "rating": 4.6,
-   "sold_count": 2,
+   "sold_count": 0,
    "created_at": "2026-10-01T09:00:00.000Z"
   },
   {
@@ -942,365 +827,10 @@
    "qty": 2
   }
  ],
- "orders": [
-  {
-   "id": "47a2172f-3f3f-4897-97b7-bae4ae974faa",
-   "code": "SM-187848",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "status": "order_placed",
-   "subtotal": 6000,
-   "package_discount": 0,
-   "coupon_discount": 600,
-   "bonus_discount": 0,
-   "delivery_fee": 1000,
-   "total": 6400,
-   "coupon_code": "WELCOME10",
-   "address_snapshot": {
-    "label": "Home",
-    "recipient": "Aminata Fall",
-    "phone": "770001122",
-    "zone": "Plateau",
-    "address": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
-    "lat": 14.6937,
-    "lng": -17.4441
-   },
-   "gift": null,
-   "payment_method": "wave",
-   "zone_id": "00000004-0000-4000-8000-900000000001",
-   "delivery_staff_id": null,
-   "created_at": "2026-10-02T06:44:13.140Z",
-   "updated_at": "2026-10-02T06:44:13.140Z"
-  },
-  {
-   "id": "60fba0f8-14d8-46a0-8886-529f156028f6",
-   "code": "SM-643705",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "status": "payment_confirmed",
-   "subtotal": 600,
-   "package_discount": 0,
-   "coupon_discount": 0,
-   "bonus_discount": 0,
-   "delivery_fee": 1000,
-   "total": 1600,
-   "coupon_code": null,
-   "address_snapshot": {
-    "label": "Home",
-    "recipient": "Test User",
-    "phone": "770001122",
-    "zone": "Plateau",
-    "address": "Rue 10 Dakar",
-    "lat": null,
-    "lng": null
-   },
-   "gift": null,
-   "payment_method": "cod",
-   "zone_id": "00000004-0000-4000-8000-900000000001",
-   "delivery_staff_id": null,
-   "created_at": "2026-10-02T07:08:44.602Z",
-   "updated_at": "2026-10-02T07:08:44.602Z"
-  },
-  {
-   "id": "fe297e6b-8508-4f25-b8d8-b95d3f89142a",
-   "code": "SM-988368",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "status": "order_placed",
-   "subtotal": 7500,
-   "package_discount": 0,
-   "coupon_discount": 750,
-   "bonus_discount": 0,
-   "delivery_fee": 1000,
-   "total": 7750,
-   "coupon_code": "WELCOME10",
-   "address_snapshot": {
-    "label": "Home",
-    "recipient": "Awa",
-    "phone": "770001122",
-    "zone": "Plateau",
-    "address": "Rue 10",
-    "lat": null,
-    "lng": null
-   },
-   "gift": {
-    "recipient": "Fatou",
-    "phone": "771112233",
-    "address": "Almadies",
-    "message": "Happy birthday",
-    "notify": true
-   },
-   "payment_method": "orange_money",
-   "zone_id": "00000004-0000-4000-8000-900000000001",
-   "delivery_staff_id": null,
-   "created_at": "2026-10-02T07:09:24.786Z",
-   "updated_at": "2026-10-02T07:09:24.786Z"
-  },
-  {
-   "id": "6695ec12-37f7-4f47-9f13-839d0f44a978",
-   "code": "SM-971763",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "status": "order_placed",
-   "subtotal": 600,
-   "package_discount": 0,
-   "coupon_discount": 0,
-   "bonus_discount": 0,
-   "delivery_fee": 1000,
-   "total": 1600,
-   "coupon_code": null,
-   "address_snapshot": {
-    "label": "Home",
-    "recipient": "Aminata Fall",
-    "phone": "770001122",
-    "zone": "Plateau",
-    "address": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
-    "lat": 14.6937,
-    "lng": -17.4441
-   },
-   "gift": null,
-   "payment_method": "orange_money",
-   "zone_id": "00000004-0000-4000-8000-900000000001",
-   "delivery_staff_id": null,
-   "created_at": "2026-10-02T07:20:56.917Z",
-   "updated_at": "2026-10-02T07:20:56.917Z"
-  },
-  {
-   "id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
-   "code": "SM-643684",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "status": "order_placed",
-   "subtotal": 600,
-   "package_discount": 0,
-   "coupon_discount": 0,
-   "bonus_discount": 0,
-   "delivery_fee": 1000,
-   "total": 1600,
-   "coupon_code": null,
-   "address_snapshot": {
-    "label": "Home",
-    "recipient": "Aminata Fall",
-    "phone": "770001122",
-    "zone": "Plateau",
-    "address": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
-    "lat": 14.6937,
-    "lng": -17.4441
-   },
-   "gift": null,
-   "payment_method": "orange_money",
-   "zone_id": "00000004-0000-4000-8000-900000000001",
-   "delivery_staff_id": "00000007-0000-4000-8000-900000000001",
-   "created_at": "2026-10-02T07:23:18.791Z",
-   "updated_at": "2026-10-02T08:15:37.482Z"
-  },
-  {
-   "id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
-   "code": "SM-380683",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "status": "preparing",
-   "subtotal": 600,
-   "package_discount": 0,
-   "coupon_discount": 0,
-   "bonus_discount": 0,
-   "delivery_fee": 1000,
-   "total": 1600,
-   "coupon_code": null,
-   "address_snapshot": {
-    "label": "Home",
-    "recipient": "Aminata Fall",
-    "phone": "770001122",
-    "zone": "Plateau",
-    "address": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
-    "lat": 14.6937,
-    "lng": -17.4441
-   },
-   "gift": null,
-   "payment_method": "orange_money",
-   "zone_id": "00000004-0000-4000-8000-900000000001",
-   "delivery_staff_id": null,
-   "created_at": "2026-10-02T07:29:59.682Z",
-   "updated_at": "2026-10-02T08:14:43.574Z"
-  }
- ],
- "order_items": [
-  {
-   "id": "da1cecc1-2ef4-4c98-abe5-b587684236ff",
-   "order_id": "47a2172f-3f3f-4897-97b7-bae4ae974faa",
-   "product_id": "00000002-0000-4000-8000-900000000001",
-   "variant_id": null,
-   "name_snapshot": "Baguette Tradition",
-   "qty": 20,
-   "unit_price": 300
-  },
-  {
-   "id": "6dc9b762-f40b-45ea-858e-637e35452bf3",
-   "order_id": "60fba0f8-14d8-46a0-8886-529f156028f6",
-   "product_id": "00000002-0000-4000-8000-900000000001",
-   "variant_id": null,
-   "name_snapshot": "Baguette Tradition",
-   "qty": 2,
-   "unit_price": 300
-  },
-  {
-   "id": "34fd785e-75e0-44b9-95ea-6b95929db7e3",
-   "order_id": "fe297e6b-8508-4f25-b8d8-b95d3f89142a",
-   "product_id": "00000002-0000-4000-8000-900000000001",
-   "variant_id": null,
-   "name_snapshot": "Baguette Tradition",
-   "qty": 25,
-   "unit_price": 300
-  },
-  {
-   "id": "258ff403-f9e0-461b-8cb6-984954c4aa74",
-   "order_id": "6695ec12-37f7-4f47-9f13-839d0f44a978",
-   "product_id": "00000002-0000-4000-8000-900000000001",
-   "variant_id": null,
-   "name_snapshot": "Baguette Tradition",
-   "qty": 2,
-   "unit_price": 300
-  },
-  {
-   "id": "bb2590de-0c2b-4db6-97c7-6535ddf5adde",
-   "order_id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
-   "product_id": "00000002-0000-4000-8000-900000000001",
-   "variant_id": null,
-   "name_snapshot": "Baguette Tradition",
-   "qty": 2,
-   "unit_price": 300
-  },
-  {
-   "id": "1517ef81-d15f-4f84-8c36-b8216b23daf0",
-   "order_id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
-   "product_id": "00000002-0000-4000-8000-900000000001",
-   "variant_id": null,
-   "name_snapshot": "Baguette Tradition",
-   "qty": 2,
-   "unit_price": 300
-  }
- ],
- "order_events": [
-  {
-   "id": "d7dc0fc8-0fdd-4c06-8109-9d8276e989fc",
-   "order_id": "47a2172f-3f3f-4897-97b7-bae4ae974faa",
-   "status": "order_placed",
-   "note": "Order placed",
-   "created_at": "2026-10-02T06:44:13.156Z"
-  },
-  {
-   "id": "93f20114-4342-410d-87e1-7d34ac7a8371",
-   "order_id": "60fba0f8-14d8-46a0-8886-529f156028f6",
-   "status": "order_placed",
-   "note": "Order placed",
-   "created_at": "2026-10-02T07:08:44.617Z"
-  },
-  {
-   "id": "0eda0ecf-fcca-40b7-9d5a-8223eb32622f",
-   "order_id": "60fba0f8-14d8-46a0-8886-529f156028f6",
-   "status": "payment_confirmed",
-   "note": "Cash on Delivery — pay the rider on arrival",
-   "created_at": "2026-10-02T07:08:44.619Z"
-  },
-  {
-   "id": "6153664c-72c9-4db5-9e19-2c32ffe77d92",
-   "order_id": "fe297e6b-8508-4f25-b8d8-b95d3f89142a",
-   "status": "order_placed",
-   "note": "Order placed",
-   "created_at": "2026-10-02T07:09:24.788Z"
-  },
-  {
-   "id": "4289e885-ef04-4c5e-aa24-9b8dc7907fae",
-   "order_id": "6695ec12-37f7-4f47-9f13-839d0f44a978",
-   "status": "order_placed",
-   "note": "Order placed",
-   "created_at": "2026-10-02T07:20:56.920Z"
-  },
-  {
-   "id": "6a22f105-8c7f-46a5-bd40-802222452b97",
-   "order_id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
-   "status": "order_placed",
-   "note": "Order placed",
-   "created_at": "2026-10-02T07:23:18.811Z"
-  },
-  {
-   "id": "0ccb8de9-968e-4387-b245-4ecc5390640c",
-   "order_id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
-   "status": "order_placed",
-   "note": "Order placed",
-   "created_at": "2026-10-02T07:29:59.692Z"
-  },
-  {
-   "id": "04f0c767-cd62-42cc-926f-63f2abc7f118",
-   "order_id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
-   "status": "preparing",
-   "note": "Preparing Order",
-   "created_at": "2026-10-02T08:14:43.575Z"
-  },
-  {
-   "id": "2b92b08c-f12f-450e-a1d7-b8f9883a6c65",
-   "order_id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
-   "status": "order_placed",
-   "note": "Rider updated",
-   "created_at": "2026-10-02T08:15:37.484Z"
-  }
- ],
- "payments": [
-  {
-   "id": "1fd140eb-71da-4812-b6ba-05de6c5a40f2",
-   "order_id": "47a2172f-3f3f-4897-97b7-bae4ae974faa",
-   "method": "wave",
-   "status": "awaiting_customer",
-   "reference": null,
-   "confirmed_by": null,
-   "created_at": "2026-10-02T06:44:13.157Z",
-   "updated_at": "2026-10-02T06:44:13.157Z"
-  },
-  {
-   "id": "ff72e2ae-9a5a-4921-b1e7-89f119ff0b97",
-   "order_id": "60fba0f8-14d8-46a0-8886-529f156028f6",
-   "method": "cod",
-   "status": "cash_pending",
-   "reference": null,
-   "confirmed_by": null,
-   "created_at": "2026-10-02T07:08:44.620Z",
-   "updated_at": "2026-10-02T07:08:44.620Z"
-  },
-  {
-   "id": "23c08663-ef22-4a0b-b0e4-54c7d73b5b75",
-   "order_id": "fe297e6b-8508-4f25-b8d8-b95d3f89142a",
-   "method": "orange_money",
-   "status": "submitted",
-   "reference": null,
-   "confirmed_by": null,
-   "created_at": "2026-10-02T07:09:24.803Z",
-   "updated_at": "2026-10-02T07:09:25.609Z"
-  },
-  {
-   "id": "8c3fd5ac-0f29-465a-8cb8-c48bd7fac566",
-   "order_id": "6695ec12-37f7-4f47-9f13-839d0f44a978",
-   "method": "orange_money",
-   "status": "awaiting_customer",
-   "reference": null,
-   "confirmed_by": null,
-   "created_at": "2026-10-02T07:20:56.921Z",
-   "updated_at": "2026-10-02T07:20:56.921Z"
-  },
-  {
-   "id": "c5f2370e-a3b7-4c54-8b42-fc3ae4bae0eb",
-   "order_id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
-   "method": "orange_money",
-   "status": "submitted",
-   "reference": null,
-   "confirmed_by": null,
-   "created_at": "2026-10-02T07:23:18.831Z",
-   "updated_at": "2026-10-02T07:29:07.468Z"
-  },
-  {
-   "id": "94fe9ba5-10eb-4b20-aba5-745c9bc975f5",
-   "order_id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
-   "method": "orange_money",
-   "status": "confirmed",
-   "reference": null,
-   "confirmed_by": "00000008-0000-4000-8000-900000000001",
-   "created_at": "2026-10-02T07:29:59.695Z",
-   "updated_at": "2026-10-02T08:16:34.951Z"
-  }
- ],
+ "orders": [],
+ "order_items": [],
+ "order_events": [],
+ "payments": [],
  "coupons": [
   {
    "id": "00000005-0000-4000-8000-900000000001",
@@ -1310,7 +840,7 @@
    "min_order": 5000,
    "expires_at": "2026-11-30T09:00:00.000Z",
    "usage_limit": 500,
-   "used_count": 2,
+   "used_count": 0,
    "active": true,
    "category_id": null
   },
@@ -1360,53 +890,7 @@
    "created_at": "2026-10-01T09:00:00.000Z"
   }
  ],
- "notifications": [
-  {
-   "id": "61798b1c-f93d-4590-8525-0ca076ba306a",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "title": "Payment submitted",
-   "body": "We received your Orange Money payment notice for SM-988368. It will be confirmed shortly.",
-   "kind": "payment",
-   "read": false,
-   "created_at": "2026-10-02T07:09:25.611Z"
-  },
-  {
-   "id": "5c81eb8b-903c-4240-98ea-86a6dfbf8941",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "title": "Payment submitted",
-   "body": "We received your Orange Money payment notice for SM-643684. It will be confirmed shortly.",
-   "kind": "payment",
-   "read": false,
-   "created_at": "2026-10-02T07:29:07.474Z"
-  },
-  {
-   "id": "4d122eaf-9c1c-4a19-811a-b2f687f8463f",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "title": "Payment submitted",
-   "body": "We received your Orange Money payment notice for SM-380683. It will be confirmed shortly.",
-   "kind": "payment",
-   "read": false,
-   "created_at": "2026-10-02T07:30:04.319Z"
-  },
-  {
-   "id": "59613df3-8075-4b32-abb8-f8b80bdda694",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "title": "Order SM-380683: Preparing Order",
-   "body": "Preparing Order",
-   "kind": "order",
-   "read": false,
-   "created_at": "2026-10-02T08:14:43.577Z"
-  },
-  {
-   "id": "e7ab495b-ecfa-448c-a845-1bed0ab1dc6c",
-   "user_id": "00000008-0000-4000-8000-900000000002",
-   "title": "Order SM-643684: Order Placed",
-   "body": "Rider updated",
-   "kind": "order",
-   "read": false,
-   "created_at": "2026-10-02T08:15:37.486Z"
-  }
- ],
+ "notifications": [],
  "delivery_zones": [
   {
    "id": "00000004-0000-4000-8000-900000000001",
@@ -1599,15 +1083,28 @@
   },
   {
    "key": "codGlobal",
-   "value": "true"
+   "value": true
   },
   {
    "key": "bonusEarnPercent",
-   "value": "2"
+   "value": 2
   },
   {
    "key": "packageTiers",
-   "value": "[{\"minItems\":3,\"pct\":5},{\"minItems\":5,\"pct\":8},{\"minItems\":8,\"pct\":10}]"
+   "value": [
+    {
+     "minItems": 3,
+     "pct": 5
+    },
+    {
+     "minItems": 5,
+     "pct": 8
+    },
+    {
+     "minItems": 8,
+     "pct": 10
+    }
+   ]
   }
  ]
 }

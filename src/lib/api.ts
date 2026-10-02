@@ -23,7 +23,7 @@ export async function api<T = any>(path: string, options: { method?: string; bod
   const headers: Record<string, string> = {};
   if (options.body !== undefined) headers["content-type"] = "application/json";
   const token = getToken();
-  if (token && options.auth !== false) headers.authorization = `Bearer ${token}`;
+  if (token && options.auth !== false) headers["x-sm-token"] = token;
   const response = await fetch(`${BASE}${path}`, {
     method: options.method || (options.body !== undefined ? "POST" : "GET"),
     headers,

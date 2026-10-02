@@ -77,10 +77,11 @@ export async function deleteRow(supabase, table, filters) {
   return result.data;
 }
 
-// Application identity: session token issued by /auth/login, carried as Bearer.
+// Application identity: session token issued by /auth/login. Carried in x-sm-token, not
+// Authorization, because the platform adapter strips Authorization (it carries the DB anon key).
 export async function getSessionUser(supabase, request) {
-  const header = request.headers.get("authorization") || "";
-  const match = /^Bearer ([a-f0-9]{64})$/i.exec(header.trim());
+  const header = request.headers.get("x-sm-token") || "";
+  const match = /^([a-f0-9]{64})$/i.exec(header.trim());
   if (!match) return null;
   const session = await findOne(supabase, "sessions", "id,user_id,expires_at", { id: match[1].toLowerCase() });
   if (!session || new Date(session.expires_at).getTime() < Date.now()) return null;

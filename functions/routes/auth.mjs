@@ -41,8 +41,8 @@ export async function authRoutes(ctx, segments) {
   }
 
   if (request.method === "POST" && action === "logout") {
-    const header = request.headers.get("authorization") || "";
-    const match = /^Bearer ([a-f0-9]{64})$/i.exec(header.trim());
+    const header = request.headers.get("x-sm-token") || "";
+    const match = /^([a-f0-9]{64})$/i.exec(header.trim());
     if (match) {
       const { deleteRow } = await import("../lib/db.mjs");
       await deleteRow(supabase, "sessions", { id: match[1].toLowerCase() });

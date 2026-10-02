@@ -1,0 +1,1613 @@
+{
+ "users": [
+  {
+   "id": "00000008-0000-4000-8000-900000000001",
+   "role": "admin",
+   "name": "Store Admin",
+   "phone": "775784158",
+   "email": null,
+   "pass_hash": "b0c73bfd578cfa5f6e3e47925b0faa03ce6a71e0ea9b2af39252c006f52daa9b",
+   "pass_salt": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000008-0000-4000-8000-900000000002",
+   "role": "customer",
+   "name": "Aminata Fall",
+   "phone": "770001122",
+   "email": null,
+   "pass_hash": "b3fba95da281906e84d07db814deb77fb2e3ecca5cdfb88208d92997fa970551",
+   "pass_salt": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+   "created_at": "2026-10-01T09:00:00.000Z"
+  }
+ ],
+ "sessions": [
+  {
+   "id": "464597872a41008e4f7301ef07d9a93e0a37949de29792780547f5142ea30049",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T06:36:01.431Z",
+   "expires_at": "2026-11-01T06:36:01.431Z"
+  },
+  {
+   "id": "7a8f1f73339be69c0ab0893ea3902514ede711ff06cfadde33c477e57faf696a",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T06:36:59.978Z",
+   "expires_at": "2026-11-01T06:36:59.978Z"
+  },
+  {
+   "id": "fc3c595216e38f3938f07455a01474987a455b8716a49d3ae64a79fa0787bafa",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T06:38:38.563Z",
+   "expires_at": "2026-11-01T06:38:38.563Z"
+  },
+  {
+   "id": "b5bf554fc42f0dd76d6d4ea0e9dfb00ee11bd1cd627b1660e0d8ca6ad5e7ab98",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T06:40:28.871Z",
+   "expires_at": "2026-11-01T06:40:28.872Z"
+  },
+  {
+   "id": "79e50acbca7f1310e7e958da7d01a02d79cebf370831fb7479dcb8a37e7474bd",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T06:40:59.193Z",
+   "expires_at": "2026-11-01T06:40:59.193Z"
+  },
+  {
+   "id": "40af6d9c53797fb19372548ea20950f19ebf52cd15a8d17ebac2475c8dc0d8e5",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T06:43:22.808Z",
+   "expires_at": "2026-11-01T06:43:22.808Z"
+  },
+  {
+   "id": "e7790ea3e520905d9afb6b8221d8e7351ab700aca58fe1448a2f12fd65577414",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T06:43:51.684Z",
+   "expires_at": "2026-11-01T06:43:51.684Z"
+  },
+  {
+   "id": "c57f962f912e5e8cf748352fa29e78d21c7c62253f8b30f841df911c0f15051c",
+   "user_id": "00000008-0000-4000-8000-900000000001",
+   "created_at": "2026-10-02T06:43:52.299Z",
+   "expires_at": "2026-11-01T06:43:52.299Z"
+  },
+  {
+   "id": "a79f2c95ca0644d4b2a9d53380ed8665e6c00e5b0bf14b0568312441a4742e15",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T06:44:12.800Z",
+   "expires_at": "2026-11-01T06:44:12.800Z"
+  },
+  {
+   "id": "02bffb898c86bb639ac53c39b3d2e50c51a3b9761a87d5fcd79f45ae98fb7030",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T07:08:17.034Z",
+   "expires_at": "2026-11-01T07:08:17.034Z"
+  },
+  {
+   "id": "77e788e143c52f18f76a1a9be48d2d3985b512ded23375ec2c184338226c2ff7",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T07:08:43.835Z",
+   "expires_at": "2026-11-01T07:08:43.835Z"
+  },
+  {
+   "id": "0171ba260f32d4a43c03dc64a261eaadd6d9351fc8557bff8cf4fa02d9e20caf",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T07:09:04.445Z",
+   "expires_at": "2026-11-01T07:09:04.445Z"
+  },
+  {
+   "id": "2924c05e9806ff03e2191394bddcc00fd0eee922ad7dfccbd5b8eed64b0fa41d",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T07:09:24.338Z",
+   "expires_at": "2026-11-01T07:09:24.338Z"
+  },
+  {
+   "id": "ea77d91a618f508d46efd76586d6178561780ad5deb9e99d21dc23c994f80cf7",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T07:11:24.645Z",
+   "expires_at": "2026-11-01T07:11:24.645Z"
+  },
+  {
+   "id": "82a9b5eb8e51e3d7b9c1383aff442720500ef02837d3d9b731f648187c1a44ef",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T07:25:30.036Z",
+   "expires_at": "2026-11-01T07:25:30.036Z"
+  },
+  {
+   "id": "543dfc2fbe167504853cb420bd696b0279edcf16356b010717c98d5fa3a815ee",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T07:26:21.122Z",
+   "expires_at": "2026-11-01T07:26:21.122Z"
+  },
+  {
+   "id": "114d3cccbbb1d233e434fd1e6373d510e4465cae3b6bbe6ef4f105dc3f72e081",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T07:29:06.388Z",
+   "expires_at": "2026-11-01T07:29:06.388Z"
+  },
+  {
+   "id": "a8241c9dae19884f7aca7d21bc1bbee453b5c91d8f09b178cbb775229f30cb4a",
+   "user_id": "00000008-0000-4000-8000-900000000001",
+   "created_at": "2026-10-02T08:05:09.493Z",
+   "expires_at": "2026-11-01T08:05:09.493Z"
+  },
+  {
+   "id": "2f7c96414dddae117033be071c35fb0f102d64cca7d4e60aef7facd32a70e455",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "created_at": "2026-10-02T08:19:51.716Z",
+   "expires_at": "2026-11-01T08:19:51.716Z"
+  }
+ ],
+ "addresses": [
+  {
+   "id": "0000000b-0000-4000-8000-900000000001",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "label": "Home",
+   "recipient_name": "Aminata Fall",
+   "phone": "770001122",
+   "zone_id": "00000004-0000-4000-8000-900000000001",
+   "address_text": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
+   "lat": 14.6937,
+   "lng": -17.4441,
+   "is_default": true,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  }
+ ],
+ "categories": [
+  {
+   "id": "00000001-0000-4000-8000-900000000001",
+   "slug": "bakery",
+   "name": "Bakery",
+   "description": "Bread, cakes, pastries and fresh bakes from Dakar ovens.",
+   "icon": "croissant",
+   "sort": 1
+  },
+  {
+   "id": "00000001-0000-4000-8000-900000000002",
+   "slug": "milky",
+   "name": "Milky Products",
+   "description": "Milk, yogurt, cheese, butter and cream.",
+   "icon": "milk",
+   "sort": 2
+  },
+  {
+   "id": "00000001-0000-4000-8000-900000000003",
+   "slug": "electronics",
+   "name": "Electronics",
+   "description": "TVs, laptops, audio and computer equipment.",
+   "icon": "tv",
+   "sort": 3
+  },
+  {
+   "id": "00000001-0000-4000-8000-900000000004",
+   "slug": "phones",
+   "name": "Mobile Phones",
+   "description": "Smartphones, feature phones and accessories.",
+   "icon": "smartphone",
+   "sort": 4
+  },
+  {
+   "id": "00000001-0000-4000-8000-900000000005",
+   "slug": "clothes",
+   "name": "Clothes",
+   "description": "Men, women and children fashion and shoes.",
+   "icon": "shirt",
+   "sort": 5
+  }
+ ],
+ "products": [
+  {
+   "id": "00000002-0000-4000-8000-900000000001",
+   "category_id": "00000001-0000-4000-8000-900000000001",
+   "name": "Baguette Tradition",
+   "slug": "baguette-tradition",
+   "description": "Crusty French-style baguette baked twice a day, the Dakar breakfast classic.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Baguette_mie.jpg/960px-Baguette_mie.jpg",
+   "price": 300,
+   "compare_price": null,
+   "stock": 67,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 2,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000002",
+   "category_id": "00000001-0000-4000-8000-900000000001",
+   "name": "Whole Wheat Loaf 700g",
+   "slug": "whole-wheat-loaf",
+   "description": "Soft whole wheat sandwich loaf, sliced on request.",
+   "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=60",
+   "price": 1500,
+   "compare_price": null,
+   "stock": 60,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000003",
+   "category_id": "00000001-0000-4000-8000-900000000001",
+   "name": "Chocolate Celebration Cake",
+   "slug": "chocolate-celebration-cake",
+   "description": "Three layers of moist chocolate sponge with rich ganache, serves 8.",
+   "image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=60",
+   "price": 8000,
+   "compare_price": 9500,
+   "stock": 15,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000004",
+   "category_id": "00000001-0000-4000-8000-900000000001",
+   "name": "Butter Croissant",
+   "slug": "butter-croissant",
+   "description": "Flaky, golden croissant made with pure butter.",
+   "image_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=60",
+   "price": 500,
+   "compare_price": null,
+   "stock": 90,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000005",
+   "category_id": "00000001-0000-4000-8000-900000000001",
+   "name": "Pain au Chocolat",
+   "slug": "pain-au-chocolat",
+   "description": "Laminated pastry with two bars of dark chocolate.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pain_au_chocolat_Luc_Viatour.jpg/960px-Pain_au_chocolat_Luc_Viatour.jpg",
+   "price": 600,
+   "compare_price": null,
+   "stock": 70,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000006",
+   "category_id": "00000001-0000-4000-8000-900000000001",
+   "name": "Glazed Donut",
+   "slug": "glazed-donut",
+   "description": "Pillowy donut with a shiny sugar glaze.",
+   "image_url": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=60",
+   "price": 700,
+   "compare_price": null,
+   "stock": 80,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000007",
+   "category_id": "00000001-0000-4000-8000-900000000001",
+   "name": "Chocolate Chip Cookies (6)",
+   "slug": "chocolate-chip-cookies",
+   "description": "Six crunchy-edged, chewy-centre cookies with dark chocolate chips.",
+   "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=60",
+   "price": 2500,
+   "compare_price": null,
+   "stock": 45,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000008",
+   "category_id": "00000001-0000-4000-8000-900000000001",
+   "name": "Blueberry Muffin",
+   "slug": "blueberry-muffin",
+   "description": "Breakfast muffin loaded with wild blueberries.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Blueberry_muffin_-_GAIL%27s_2025-03-10.jpg/960px-Blueberry_muffin_-_GAIL%27s_2025-03-10.jpg",
+   "price": 900,
+   "compare_price": null,
+   "stock": 40,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000009",
+   "category_id": "00000001-0000-4000-8000-900000000002",
+   "name": "Whole Milk 1L",
+   "slug": "whole-milk-1l",
+   "description": "Pasteurised whole milk, kept cold from dairy to door.",
+   "image_url": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=800&q=60",
+   "price": 1000,
+   "compare_price": null,
+   "stock": 100,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000010",
+   "category_id": "00000001-0000-4000-8000-900000000002",
+   "name": "Natural Yogurt 500g",
+   "slug": "natural-yogurt-500g",
+   "description": "Thick set yogurt with live cultures, no added sugar.",
+   "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=60",
+   "price": 1200,
+   "compare_price": null,
+   "stock": 70,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000011",
+   "category_id": "00000001-0000-4000-8000-900000000002",
+   "name": "Semi-Soft Cheese 250g",
+   "slug": "semi-soft-cheese-250g",
+   "description": "Creamy table cheese for sandwiches and salads.",
+   "image_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=800&q=60",
+   "price": 3500,
+   "compare_price": null,
+   "stock": 35,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000012",
+   "category_id": "00000001-0000-4000-8000-900000000002",
+   "name": "Churned Butter 250g",
+   "slug": "churned-butter-250g",
+   "description": "Slow-churned butter with a clean, fresh finish.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2023_Mas%C5%82o_w_maselniczce.jpg/960px-2023_Mas%C5%82o_w_maselniczce.jpg",
+   "price": 2000,
+   "compare_price": null,
+   "stock": 50,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000013",
+   "category_id": "00000001-0000-4000-8000-900000000002",
+   "name": "Whipping Cream 250ml",
+   "slug": "whipping-cream-250ml",
+   "description": "35% fat cream that whips up light for desserts and sauces.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/And_some_whipped_cream_%284315201282%29.jpg/960px-And_some_whipped_cream_%284315201282%29.jpg",
+   "price": 2500,
+   "compare_price": null,
+   "stock": 40,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000014",
+   "category_id": "00000001-0000-4000-8000-900000000003",
+   "name": "Smart TV 43\" 4K",
+   "slug": "smart-tv-43",
+   "description": "43-inch 4K UHD smart TV with built-in streaming apps and 2 HDMI ports.",
+   "image_url": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=60",
+   "price": 185000,
+   "compare_price": 210000,
+   "stock": 12,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000015",
+   "category_id": "00000001-0000-4000-8000-900000000003",
+   "name": "Business Laptop 14\"",
+   "slug": "business-laptop-14",
+   "description": "Lightweight 14-inch laptop, 16GB RAM, 512GB SSD — work and study ready.",
+   "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=60",
+   "price": 450000,
+   "compare_price": null,
+   "stock": 8,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000016",
+   "category_id": "00000001-0000-4000-8000-900000000003",
+   "name": "Desktop Computer Set",
+   "slug": "desktop-computer-set",
+   "description": "Complete desktop set with tower, 24-inch monitor, keyboard and mouse.",
+   "image_url": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=800&q=60",
+   "price": 320000,
+   "compare_price": null,
+   "stock": 6,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000017",
+   "category_id": "00000001-0000-4000-8000-900000000003",
+   "name": "Portable Bluetooth Speaker",
+   "slug": "bluetooth-speaker",
+   "description": "Water-resistant speaker with 12-hour battery and deep bass.",
+   "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=60",
+   "price": 25000,
+   "compare_price": 30000,
+   "stock": 30,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000018",
+   "category_id": "00000001-0000-4000-8000-900000000003",
+   "name": "Over-Ear Headphones",
+   "slug": "over-ear-headphones",
+   "description": "Cushioned over-ear headphones with microphone for calls.",
+   "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=60",
+   "price": 15000,
+   "compare_price": null,
+   "stock": 40,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000019",
+   "category_id": "00000001-0000-4000-8000-900000000003",
+   "name": "Wireless Mouse",
+   "slug": "wireless-mouse",
+   "description": "Silent-click wireless mouse with USB receiver, 12-month battery.",
+   "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=60",
+   "price": 7500,
+   "compare_price": null,
+   "stock": 55,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000020",
+   "category_id": "00000001-0000-4000-8000-900000000004",
+   "name": "Smartphone X10 128GB",
+   "slug": "smartphone-x10",
+   "description": "6.5-inch smartphone, 128GB storage, dual SIM, 5000mAh battery.",
+   "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=60",
+   "price": 95000,
+   "compare_price": null,
+   "stock": 20,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000021",
+   "category_id": "00000001-0000-4000-8000-900000000004",
+   "name": "Smartphone Pro 5G 256GB",
+   "slug": "smartphone-pro-5g",
+   "description": "Flagship 5G phone with triple camera and 256GB storage.",
+   "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=60",
+   "price": 245000,
+   "compare_price": 265000,
+   "stock": 10,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000022",
+   "category_id": "00000001-0000-4000-8000-900000000004",
+   "name": "Feature Phone Dual SIM",
+   "slug": "feature-phone-dual",
+   "description": "Reliable dual-SIM feature phone with torch and 3-week standby.",
+   "image_url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=60",
+   "price": 15000,
+   "compare_price": null,
+   "stock": 35,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000023",
+   "category_id": "00000001-0000-4000-8000-900000000004",
+   "name": "Fast Charger 25W USB-C",
+   "slug": "fast-charger-25w",
+   "description": "25W USB-C wall charger with 1m braided cable.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/SAMSUNG_EP-T4510_45W_POWER_ADAPER_BLACK_%26_USB_C_TO_C_CABLE.jpg/960px-SAMSUNG_EP-T4510_45W_POWER_ADAPER_BLACK_%26_USB_C_TO_C_CABLE.jpg",
+   "price": 5000,
+   "compare_price": null,
+   "stock": 80,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000024",
+   "category_id": "00000001-0000-4000-8000-900000000004",
+   "name": "Silicone Phone Case",
+   "slug": "silicone-phone-case",
+   "description": "Shock-absorbing silicone case with raised camera lip.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Mobile_phone_case.jpg/960px-Mobile_phone_case.jpg",
+   "price": 3500,
+   "compare_price": null,
+   "stock": 100,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000025",
+   "category_id": "00000001-0000-4000-8000-900000000004",
+   "name": "Wireless Earphones",
+   "slug": "earphones-buds",
+   "description": "True-wireless earbuds with charging case and touch controls.",
+   "image_url": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=60",
+   "price": 9000,
+   "compare_price": 12000,
+   "stock": 60,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000026",
+   "category_id": "00000001-0000-4000-8000-900000000005",
+   "name": "Men's Cotton T-Shirt",
+   "slug": "mens-cotton-tshirt",
+   "description": "Breathable 100% cotton tee, pre-shrunk.",
+   "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=60",
+   "price": 5000,
+   "compare_price": null,
+   "stock": 70,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000027",
+   "category_id": "00000001-0000-4000-8000-900000000005",
+   "name": "Women's Summer Dress",
+   "slug": "womens-summer-dress",
+   "description": "Light flowing dress in wax-inspired print, perfect for Dakar heat.",
+   "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=60",
+   "price": 12000,
+   "compare_price": 15000,
+   "stock": 40,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000028",
+   "category_id": "00000001-0000-4000-8000-900000000005",
+   "name": "Men's Classic Shirt",
+   "slug": "mens-classic-shirt",
+   "description": "Smart-casual button shirt in crisp cotton blend.",
+   "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=60",
+   "price": 9000,
+   "compare_price": null,
+   "stock": 50,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000029",
+   "category_id": "00000001-0000-4000-8000-900000000005",
+   "name": "Chino Trousers",
+   "slug": "chino-trousers",
+   "description": "Slim-fit stretch chinos for office or weekend.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Trousers-colourisolated.jpg/960px-Trousers-colourisolated.jpg",
+   "price": 11000,
+   "compare_price": null,
+   "stock": 45,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000030",
+   "category_id": "00000001-0000-4000-8000-900000000005",
+   "name": "Urban Sneakers",
+   "slug": "urban-sneakers",
+   "description": "Cushioned everyday sneakers with grippy sole.",
+   "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=60",
+   "price": 25000,
+   "compare_price": 29000,
+   "stock": 30,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000031",
+   "category_id": "00000001-0000-4000-8000-900000000005",
+   "name": "Leather Handbag",
+   "slug": "leather-handbag",
+   "description": "Structured vegan-leather handbag with inner zip pocket.",
+   "image_url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=60",
+   "price": 15000,
+   "compare_price": null,
+   "stock": 25,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000002-0000-4000-8000-900000000032",
+   "category_id": "00000001-0000-4000-8000-900000000005",
+   "name": "Kids Printed T-Shirt",
+   "slug": "kids-printed-tshirt",
+   "description": "Soft kids tee with playful print, ages 4-10.",
+   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kids_character_clothing_in_Colma_Target_store.jpg/960px-Kids_character_clothing_in_Colma_Target_store.jpg",
+   "price": 3500,
+   "compare_price": null,
+   "stock": 60,
+   "active": true,
+   "rating": 4.6,
+   "sold_count": 0,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  }
+ ],
+ "product_variants": [
+  {
+   "id": "00000003-0000-4000-8000-900000000001",
+   "product_id": "00000002-0000-4000-8000-900000000003",
+   "kind": "size",
+   "label": "8 slices",
+   "price_delta": 0,
+   "stock": 10
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000002",
+   "product_id": "00000002-0000-4000-8000-900000000003",
+   "kind": "size",
+   "label": "12 slices",
+   "price_delta": 3000,
+   "stock": 5
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000003",
+   "product_id": "00000002-0000-4000-8000-900000000006",
+   "kind": "flavor",
+   "label": "Classic glaze",
+   "price_delta": 0,
+   "stock": 40
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000004",
+   "product_id": "00000002-0000-4000-8000-900000000006",
+   "kind": "flavor",
+   "label": "Chocolate sprinkle",
+   "price_delta": 100,
+   "stock": 40
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000005",
+   "product_id": "00000002-0000-4000-8000-900000000010",
+   "kind": "flavor",
+   "label": "Natural",
+   "price_delta": 0,
+   "stock": 40
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000006",
+   "product_id": "00000002-0000-4000-8000-900000000010",
+   "kind": "flavor",
+   "label": "Strawberry",
+   "price_delta": 200,
+   "stock": 30
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000007",
+   "product_id": "00000002-0000-4000-8000-900000000015",
+   "kind": "memory",
+   "label": "16GB / 512GB",
+   "price_delta": 0,
+   "stock": 5
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000008",
+   "product_id": "00000002-0000-4000-8000-900000000015",
+   "kind": "memory",
+   "label": "32GB / 1TB",
+   "price_delta": 90000,
+   "stock": 3
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000009",
+   "product_id": "00000002-0000-4000-8000-900000000020",
+   "kind": "color",
+   "label": "Midnight",
+   "price_delta": 0,
+   "stock": 10
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000010",
+   "product_id": "00000002-0000-4000-8000-900000000020",
+   "kind": "color",
+   "label": "Ocean Blue",
+   "price_delta": 0,
+   "stock": 10
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000011",
+   "product_id": "00000002-0000-4000-8000-900000000024",
+   "kind": "color",
+   "label": "Black",
+   "price_delta": 0,
+   "stock": 40
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000012",
+   "product_id": "00000002-0000-4000-8000-900000000024",
+   "kind": "color",
+   "label": "Green",
+   "price_delta": 0,
+   "stock": 30
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000013",
+   "product_id": "00000002-0000-4000-8000-900000000024",
+   "kind": "color",
+   "label": "Sand",
+   "price_delta": 0,
+   "stock": 30
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000014",
+   "product_id": "00000002-0000-4000-8000-900000000026",
+   "kind": "size",
+   "label": "M",
+   "price_delta": 0,
+   "stock": 25
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000015",
+   "product_id": "00000002-0000-4000-8000-900000000026",
+   "kind": "size",
+   "label": "L",
+   "price_delta": 0,
+   "stock": 25
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000016",
+   "product_id": "00000002-0000-4000-8000-900000000026",
+   "kind": "size",
+   "label": "XL",
+   "price_delta": 0,
+   "stock": 20
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000017",
+   "product_id": "00000002-0000-4000-8000-900000000027",
+   "kind": "size",
+   "label": "S",
+   "price_delta": 0,
+   "stock": 15
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000018",
+   "product_id": "00000002-0000-4000-8000-900000000027",
+   "kind": "size",
+   "label": "M",
+   "price_delta": 0,
+   "stock": 15
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000019",
+   "product_id": "00000002-0000-4000-8000-900000000027",
+   "kind": "size",
+   "label": "L",
+   "price_delta": 0,
+   "stock": 10
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000020",
+   "product_id": "00000002-0000-4000-8000-900000000030",
+   "kind": "size",
+   "label": "41",
+   "price_delta": 0,
+   "stock": 10
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000021",
+   "product_id": "00000002-0000-4000-8000-900000000030",
+   "kind": "size",
+   "label": "43",
+   "price_delta": 0,
+   "stock": 10
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000022",
+   "product_id": "00000002-0000-4000-8000-900000000030",
+   "kind": "size",
+   "label": "45",
+   "price_delta": 0,
+   "stock": 10
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000023",
+   "product_id": "00000002-0000-4000-8000-900000000032",
+   "kind": "size",
+   "label": "4-6y",
+   "price_delta": 0,
+   "stock": 20
+  },
+  {
+   "id": "00000003-0000-4000-8000-900000000024",
+   "product_id": "00000002-0000-4000-8000-900000000032",
+   "kind": "size",
+   "label": "7-10y",
+   "price_delta": 0,
+   "stock": 40
+  }
+ ],
+ "favorites": [],
+ "packages": [
+  {
+   "id": "00000009-0000-4000-8000-900000000001",
+   "user_id": null,
+   "name": "Dakar Breakfast Box",
+   "description": "Baguettes, croissants, milk and butter — a week of mornings sorted.",
+   "discount_percent": 0,
+   "active": true,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000009-0000-4000-8000-900000000002",
+   "user_id": null,
+   "name": "Office Refresh Pack",
+   "description": "Earbuds, mouse and cookies for the team.",
+   "discount_percent": 0,
+   "active": true,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  }
+ ],
+ "package_items": [
+  {
+   "id": "0000000a-0000-4000-8000-900000000001",
+   "package_id": "00000009-0000-4000-8000-900000000001",
+   "product_id": "00000002-0000-4000-8000-900000000001",
+   "variant_id": null,
+   "qty": 4
+  },
+  {
+   "id": "0000000a-0000-4000-8000-900000000002",
+   "package_id": "00000009-0000-4000-8000-900000000001",
+   "product_id": "00000002-0000-4000-8000-900000000004",
+   "variant_id": null,
+   "qty": 4
+  },
+  {
+   "id": "0000000a-0000-4000-8000-900000000003",
+   "package_id": "00000009-0000-4000-8000-900000000001",
+   "product_id": "00000002-0000-4000-8000-900000000009",
+   "variant_id": null,
+   "qty": 2
+  },
+  {
+   "id": "0000000a-0000-4000-8000-900000000004",
+   "package_id": "00000009-0000-4000-8000-900000000001",
+   "product_id": "00000002-0000-4000-8000-900000000012",
+   "variant_id": null,
+   "qty": 1
+  },
+  {
+   "id": "0000000a-0000-4000-8000-900000000005",
+   "package_id": "00000009-0000-4000-8000-900000000002",
+   "product_id": "00000002-0000-4000-8000-900000000025",
+   "variant_id": null,
+   "qty": 1
+  },
+  {
+   "id": "0000000a-0000-4000-8000-900000000006",
+   "package_id": "00000009-0000-4000-8000-900000000002",
+   "product_id": "00000002-0000-4000-8000-900000000019",
+   "variant_id": null,
+   "qty": 1
+  },
+  {
+   "id": "0000000a-0000-4000-8000-900000000007",
+   "package_id": "00000009-0000-4000-8000-900000000002",
+   "product_id": "00000002-0000-4000-8000-900000000007",
+   "variant_id": null,
+   "qty": 2
+  }
+ ],
+ "orders": [
+  {
+   "id": "47a2172f-3f3f-4897-97b7-bae4ae974faa",
+   "code": "SM-187848",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "status": "order_placed",
+   "subtotal": 6000,
+   "package_discount": 0,
+   "coupon_discount": 600,
+   "bonus_discount": 0,
+   "delivery_fee": 1000,
+   "total": 6400,
+   "coupon_code": "WELCOME10",
+   "address_snapshot": {
+    "label": "Home",
+    "recipient": "Aminata Fall",
+    "phone": "770001122",
+    "zone": "Plateau",
+    "address": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
+    "lat": 14.6937,
+    "lng": -17.4441
+   },
+   "gift": null,
+   "payment_method": "wave",
+   "zone_id": "00000004-0000-4000-8000-900000000001",
+   "delivery_staff_id": null,
+   "created_at": "2026-10-02T06:44:13.140Z",
+   "updated_at": "2026-10-02T06:44:13.140Z"
+  },
+  {
+   "id": "60fba0f8-14d8-46a0-8886-529f156028f6",
+   "code": "SM-643705",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "status": "payment_confirmed",
+   "subtotal": 600,
+   "package_discount": 0,
+   "coupon_discount": 0,
+   "bonus_discount": 0,
+   "delivery_fee": 1000,
+   "total": 1600,
+   "coupon_code": null,
+   "address_snapshot": {
+    "label": "Home",
+    "recipient": "Test User",
+    "phone": "770001122",
+    "zone": "Plateau",
+    "address": "Rue 10 Dakar",
+    "lat": null,
+    "lng": null
+   },
+   "gift": null,
+   "payment_method": "cod",
+   "zone_id": "00000004-0000-4000-8000-900000000001",
+   "delivery_staff_id": null,
+   "created_at": "2026-10-02T07:08:44.602Z",
+   "updated_at": "2026-10-02T07:08:44.602Z"
+  },
+  {
+   "id": "fe297e6b-8508-4f25-b8d8-b95d3f89142a",
+   "code": "SM-988368",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "status": "order_placed",
+   "subtotal": 7500,
+   "package_discount": 0,
+   "coupon_discount": 750,
+   "bonus_discount": 0,
+   "delivery_fee": 1000,
+   "total": 7750,
+   "coupon_code": "WELCOME10",
+   "address_snapshot": {
+    "label": "Home",
+    "recipient": "Awa",
+    "phone": "770001122",
+    "zone": "Plateau",
+    "address": "Rue 10",
+    "lat": null,
+    "lng": null
+   },
+   "gift": {
+    "recipient": "Fatou",
+    "phone": "771112233",
+    "address": "Almadies",
+    "message": "Happy birthday",
+    "notify": true
+   },
+   "payment_method": "orange_money",
+   "zone_id": "00000004-0000-4000-8000-900000000001",
+   "delivery_staff_id": null,
+   "created_at": "2026-10-02T07:09:24.786Z",
+   "updated_at": "2026-10-02T07:09:24.786Z"
+  },
+  {
+   "id": "6695ec12-37f7-4f47-9f13-839d0f44a978",
+   "code": "SM-971763",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "status": "order_placed",
+   "subtotal": 600,
+   "package_discount": 0,
+   "coupon_discount": 0,
+   "bonus_discount": 0,
+   "delivery_fee": 1000,
+   "total": 1600,
+   "coupon_code": null,
+   "address_snapshot": {
+    "label": "Home",
+    "recipient": "Aminata Fall",
+    "phone": "770001122",
+    "zone": "Plateau",
+    "address": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
+    "lat": 14.6937,
+    "lng": -17.4441
+   },
+   "gift": null,
+   "payment_method": "orange_money",
+   "zone_id": "00000004-0000-4000-8000-900000000001",
+   "delivery_staff_id": null,
+   "created_at": "2026-10-02T07:20:56.917Z",
+   "updated_at": "2026-10-02T07:20:56.917Z"
+  },
+  {
+   "id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
+   "code": "SM-643684",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "status": "order_placed",
+   "subtotal": 600,
+   "package_discount": 0,
+   "coupon_discount": 0,
+   "bonus_discount": 0,
+   "delivery_fee": 1000,
+   "total": 1600,
+   "coupon_code": null,
+   "address_snapshot": {
+    "label": "Home",
+    "recipient": "Aminata Fall",
+    "phone": "770001122",
+    "zone": "Plateau",
+    "address": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
+    "lat": 14.6937,
+    "lng": -17.4441
+   },
+   "gift": null,
+   "payment_method": "orange_money",
+   "zone_id": "00000004-0000-4000-8000-900000000001",
+   "delivery_staff_id": "00000007-0000-4000-8000-900000000001",
+   "created_at": "2026-10-02T07:23:18.791Z",
+   "updated_at": "2026-10-02T08:15:37.482Z"
+  },
+  {
+   "id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
+   "code": "SM-380683",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "status": "preparing",
+   "subtotal": 600,
+   "package_discount": 0,
+   "coupon_discount": 0,
+   "bonus_discount": 0,
+   "delivery_fee": 1000,
+   "total": 1600,
+   "coupon_code": null,
+   "address_snapshot": {
+    "label": "Home",
+    "recipient": "Aminata Fall",
+    "phone": "770001122",
+    "zone": "Plateau",
+    "address": "Rue 14 x Avenue Cheikh Anta Diop, Dakar",
+    "lat": 14.6937,
+    "lng": -17.4441
+   },
+   "gift": null,
+   "payment_method": "orange_money",
+   "zone_id": "00000004-0000-4000-8000-900000000001",
+   "delivery_staff_id": null,
+   "created_at": "2026-10-02T07:29:59.682Z",
+   "updated_at": "2026-10-02T08:14:43.574Z"
+  }
+ ],
+ "order_items": [
+  {
+   "id": "da1cecc1-2ef4-4c98-abe5-b587684236ff",
+   "order_id": "47a2172f-3f3f-4897-97b7-bae4ae974faa",
+   "product_id": "00000002-0000-4000-8000-900000000001",
+   "variant_id": null,
+   "name_snapshot": "Baguette Tradition",
+   "qty": 20,
+   "unit_price": 300
+  },
+  {
+   "id": "6dc9b762-f40b-45ea-858e-637e35452bf3",
+   "order_id": "60fba0f8-14d8-46a0-8886-529f156028f6",
+   "product_id": "00000002-0000-4000-8000-900000000001",
+   "variant_id": null,
+   "name_snapshot": "Baguette Tradition",
+   "qty": 2,
+   "unit_price": 300
+  },
+  {
+   "id": "34fd785e-75e0-44b9-95ea-6b95929db7e3",
+   "order_id": "fe297e6b-8508-4f25-b8d8-b95d3f89142a",
+   "product_id": "00000002-0000-4000-8000-900000000001",
+   "variant_id": null,
+   "name_snapshot": "Baguette Tradition",
+   "qty": 25,
+   "unit_price": 300
+  },
+  {
+   "id": "258ff403-f9e0-461b-8cb6-984954c4aa74",
+   "order_id": "6695ec12-37f7-4f47-9f13-839d0f44a978",
+   "product_id": "00000002-0000-4000-8000-900000000001",
+   "variant_id": null,
+   "name_snapshot": "Baguette Tradition",
+   "qty": 2,
+   "unit_price": 300
+  },
+  {
+   "id": "bb2590de-0c2b-4db6-97c7-6535ddf5adde",
+   "order_id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
+   "product_id": "00000002-0000-4000-8000-900000000001",
+   "variant_id": null,
+   "name_snapshot": "Baguette Tradition",
+   "qty": 2,
+   "unit_price": 300
+  },
+  {
+   "id": "1517ef81-d15f-4f84-8c36-b8216b23daf0",
+   "order_id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
+   "product_id": "00000002-0000-4000-8000-900000000001",
+   "variant_id": null,
+   "name_snapshot": "Baguette Tradition",
+   "qty": 2,
+   "unit_price": 300
+  }
+ ],
+ "order_events": [
+  {
+   "id": "d7dc0fc8-0fdd-4c06-8109-9d8276e989fc",
+   "order_id": "47a2172f-3f3f-4897-97b7-bae4ae974faa",
+   "status": "order_placed",
+   "note": "Order placed",
+   "created_at": "2026-10-02T06:44:13.156Z"
+  },
+  {
+   "id": "93f20114-4342-410d-87e1-7d34ac7a8371",
+   "order_id": "60fba0f8-14d8-46a0-8886-529f156028f6",
+   "status": "order_placed",
+   "note": "Order placed",
+   "created_at": "2026-10-02T07:08:44.617Z"
+  },
+  {
+   "id": "0eda0ecf-fcca-40b7-9d5a-8223eb32622f",
+   "order_id": "60fba0f8-14d8-46a0-8886-529f156028f6",
+   "status": "payment_confirmed",
+   "note": "Cash on Delivery — pay the rider on arrival",
+   "created_at": "2026-10-02T07:08:44.619Z"
+  },
+  {
+   "id": "6153664c-72c9-4db5-9e19-2c32ffe77d92",
+   "order_id": "fe297e6b-8508-4f25-b8d8-b95d3f89142a",
+   "status": "order_placed",
+   "note": "Order placed",
+   "created_at": "2026-10-02T07:09:24.788Z"
+  },
+  {
+   "id": "4289e885-ef04-4c5e-aa24-9b8dc7907fae",
+   "order_id": "6695ec12-37f7-4f47-9f13-839d0f44a978",
+   "status": "order_placed",
+   "note": "Order placed",
+   "created_at": "2026-10-02T07:20:56.920Z"
+  },
+  {
+   "id": "6a22f105-8c7f-46a5-bd40-802222452b97",
+   "order_id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
+   "status": "order_placed",
+   "note": "Order placed",
+   "created_at": "2026-10-02T07:23:18.811Z"
+  },
+  {
+   "id": "0ccb8de9-968e-4387-b245-4ecc5390640c",
+   "order_id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
+   "status": "order_placed",
+   "note": "Order placed",
+   "created_at": "2026-10-02T07:29:59.692Z"
+  },
+  {
+   "id": "04f0c767-cd62-42cc-926f-63f2abc7f118",
+   "order_id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
+   "status": "preparing",
+   "note": "Preparing Order",
+   "created_at": "2026-10-02T08:14:43.575Z"
+  },
+  {
+   "id": "2b92b08c-f12f-450e-a1d7-b8f9883a6c65",
+   "order_id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
+   "status": "order_placed",
+   "note": "Rider updated",
+   "created_at": "2026-10-02T08:15:37.484Z"
+  }
+ ],
+ "payments": [
+  {
+   "id": "1fd140eb-71da-4812-b6ba-05de6c5a40f2",
+   "order_id": "47a2172f-3f3f-4897-97b7-bae4ae974faa",
+   "method": "wave",
+   "status": "awaiting_customer",
+   "reference": null,
+   "confirmed_by": null,
+   "created_at": "2026-10-02T06:44:13.157Z",
+   "updated_at": "2026-10-02T06:44:13.157Z"
+  },
+  {
+   "id": "ff72e2ae-9a5a-4921-b1e7-89f119ff0b97",
+   "order_id": "60fba0f8-14d8-46a0-8886-529f156028f6",
+   "method": "cod",
+   "status": "cash_pending",
+   "reference": null,
+   "confirmed_by": null,
+   "created_at": "2026-10-02T07:08:44.620Z",
+   "updated_at": "2026-10-02T07:08:44.620Z"
+  },
+  {
+   "id": "23c08663-ef22-4a0b-b0e4-54c7d73b5b75",
+   "order_id": "fe297e6b-8508-4f25-b8d8-b95d3f89142a",
+   "method": "orange_money",
+   "status": "submitted",
+   "reference": null,
+   "confirmed_by": null,
+   "created_at": "2026-10-02T07:09:24.803Z",
+   "updated_at": "2026-10-02T07:09:25.609Z"
+  },
+  {
+   "id": "8c3fd5ac-0f29-465a-8cb8-c48bd7fac566",
+   "order_id": "6695ec12-37f7-4f47-9f13-839d0f44a978",
+   "method": "orange_money",
+   "status": "awaiting_customer",
+   "reference": null,
+   "confirmed_by": null,
+   "created_at": "2026-10-02T07:20:56.921Z",
+   "updated_at": "2026-10-02T07:20:56.921Z"
+  },
+  {
+   "id": "c5f2370e-a3b7-4c54-8b42-fc3ae4bae0eb",
+   "order_id": "d923b216-7eb9-44c6-a643-1ffe2c7100dc",
+   "method": "orange_money",
+   "status": "submitted",
+   "reference": null,
+   "confirmed_by": null,
+   "created_at": "2026-10-02T07:23:18.831Z",
+   "updated_at": "2026-10-02T07:29:07.468Z"
+  },
+  {
+   "id": "94fe9ba5-10eb-4b20-aba5-745c9bc975f5",
+   "order_id": "33934dd9-98dc-4c6b-a56e-49860ff6d1d3",
+   "method": "orange_money",
+   "status": "confirmed",
+   "reference": null,
+   "confirmed_by": "00000008-0000-4000-8000-900000000001",
+   "created_at": "2026-10-02T07:29:59.695Z",
+   "updated_at": "2026-10-02T08:16:34.951Z"
+  }
+ ],
+ "coupons": [
+  {
+   "id": "00000005-0000-4000-8000-900000000001",
+   "code": "WELCOME10",
+   "kind": "percent",
+   "value": 10,
+   "min_order": 5000,
+   "expires_at": "2026-11-30T09:00:00.000Z",
+   "usage_limit": 500,
+   "used_count": 2,
+   "active": true,
+   "category_id": null
+  },
+  {
+   "id": "00000005-0000-4000-8000-900000000002",
+   "code": "DAKAR500",
+   "kind": "fixed",
+   "value": 500,
+   "min_order": 10000,
+   "expires_at": "2026-11-15T09:00:00.000Z",
+   "usage_limit": 300,
+   "used_count": 0,
+   "active": true,
+   "category_id": null
+  },
+  {
+   "id": "00000005-0000-4000-8000-900000000003",
+   "code": "SWEET15",
+   "kind": "percent",
+   "value": 15,
+   "min_order": 3000,
+   "expires_at": "2026-10-31T09:00:00.000Z",
+   "usage_limit": 200,
+   "used_count": 0,
+   "active": true,
+   "category_id": "00000001-0000-4000-8000-900000000001"
+  }
+ ],
+ "bonus_transactions": [],
+ "reward_campaigns": [
+  {
+   "id": "00000006-0000-4000-8000-900000000001",
+   "name": "2% back on every delivered order",
+   "kind": "order_completed_percent",
+   "value": 2,
+   "threshold": 0,
+   "active": true,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "00000006-0000-4000-8000-900000000002",
+   "name": "50,000 FCFA spending milestone",
+   "kind": "milestone",
+   "value": 2500,
+   "threshold": 50000,
+   "active": true,
+   "created_at": "2026-10-01T09:00:00.000Z"
+  }
+ ],
+ "notifications": [
+  {
+   "id": "61798b1c-f93d-4590-8525-0ca076ba306a",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "title": "Payment submitted",
+   "body": "We received your Orange Money payment notice for SM-988368. It will be confirmed shortly.",
+   "kind": "payment",
+   "read": false,
+   "created_at": "2026-10-02T07:09:25.611Z"
+  },
+  {
+   "id": "5c81eb8b-903c-4240-98ea-86a6dfbf8941",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "title": "Payment submitted",
+   "body": "We received your Orange Money payment notice for SM-643684. It will be confirmed shortly.",
+   "kind": "payment",
+   "read": false,
+   "created_at": "2026-10-02T07:29:07.474Z"
+  },
+  {
+   "id": "4d122eaf-9c1c-4a19-811a-b2f687f8463f",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "title": "Payment submitted",
+   "body": "We received your Orange Money payment notice for SM-380683. It will be confirmed shortly.",
+   "kind": "payment",
+   "read": false,
+   "created_at": "2026-10-02T07:30:04.319Z"
+  },
+  {
+   "id": "59613df3-8075-4b32-abb8-f8b80bdda694",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "title": "Order SM-380683: Preparing Order",
+   "body": "Preparing Order",
+   "kind": "order",
+   "read": false,
+   "created_at": "2026-10-02T08:14:43.577Z"
+  },
+  {
+   "id": "e7ab495b-ecfa-448c-a845-1bed0ab1dc6c",
+   "user_id": "00000008-0000-4000-8000-900000000002",
+   "title": "Order SM-643684: Order Placed",
+   "body": "Rider updated",
+   "kind": "order",
+   "read": false,
+   "created_at": "2026-10-02T08:15:37.486Z"
+  }
+ ],
+ "delivery_zones": [
+  {
+   "id": "00000004-0000-4000-8000-900000000001",
+   "slug": "plateau",
+   "name": "Plateau",
+   "fee": 1000,
+   "cod_enabled": true,
+   "lat": 14.6728,
+   "lng": -17.438,
+   "radius_km": 3,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000002",
+   "slug": "medina",
+   "name": "Médina",
+   "fee": 1000,
+   "cod_enabled": true,
+   "lat": 14.6836,
+   "lng": -17.4478,
+   "radius_km": 3,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000003",
+   "slug": "mermoz",
+   "name": "Mermoz",
+   "fee": 1000,
+   "cod_enabled": true,
+   "lat": 14.7167,
+   "lng": -17.4677,
+   "radius_km": 3,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000004",
+   "slug": "point-e",
+   "name": "Point E",
+   "fee": 1000,
+   "cod_enabled": true,
+   "lat": 14.7069,
+   "lng": -17.4678,
+   "radius_km": 3,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000005",
+   "slug": "han-bel-air",
+   "name": "Hann Bel-Air",
+   "fee": 1500,
+   "cod_enabled": true,
+   "lat": 14.7,
+   "lng": -17.4167,
+   "radius_km": 4,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000006",
+   "slug": "sacre-coeur",
+   "name": "Sacré-Coeur",
+   "fee": 1500,
+   "cod_enabled": true,
+   "lat": 14.718,
+   "lng": -17.456,
+   "radius_km": 3,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000007",
+   "slug": "ouakam",
+   "name": "Ouakam",
+   "fee": 1500,
+   "cod_enabled": true,
+   "lat": 14.7367,
+   "lng": -17.4975,
+   "radius_km": 4,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000008",
+   "slug": "yoff",
+   "name": "Yoff",
+   "fee": 1500,
+   "cod_enabled": true,
+   "lat": 14.745,
+   "lng": -17.473,
+   "radius_km": 4,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000009",
+   "slug": "grand-yoff",
+   "name": "Grand Yoff",
+   "fee": 1500,
+   "cod_enabled": true,
+   "lat": 14.75,
+   "lng": -17.4667,
+   "radius_km": 4,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000010",
+   "slug": "almadies",
+   "name": "Almadies",
+   "fee": 2000,
+   "cod_enabled": true,
+   "lat": 14.7392,
+   "lng": -17.513,
+   "radius_km": 5,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000011",
+   "slug": "parcelles-assainies",
+   "name": "Parcelles Assainies",
+   "fee": 2000,
+   "cod_enabled": true,
+   "lat": 14.7833,
+   "lng": -17.4833,
+   "radius_km": 5,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000012",
+   "slug": "guediawaye",
+   "name": "Guédiawaye",
+   "fee": 2500,
+   "cod_enabled": true,
+   "lat": 14.7667,
+   "lng": -17.4167,
+   "radius_km": 5,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000013",
+   "slug": "pikine",
+   "name": "Pikine",
+   "fee": 2500,
+   "cod_enabled": true,
+   "lat": 14.7667,
+   "lng": -17.45,
+   "radius_km": 5,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000014",
+   "slug": "keur-massar",
+   "name": "Keur Massar",
+   "fee": 3000,
+   "cod_enabled": true,
+   "lat": 14.8,
+   "lng": -17.35,
+   "radius_km": 6,
+   "active": true
+  },
+  {
+   "id": "00000004-0000-4000-8000-900000000015",
+   "slug": "rufisque",
+   "name": "Rufisque",
+   "fee": 3500,
+   "cod_enabled": false,
+   "lat": 14.7167,
+   "lng": -17.25,
+   "radius_km": 6,
+   "active": true
+  }
+ ],
+ "delivery_staff": [
+  {
+   "id": "00000007-0000-4000-8000-900000000001",
+   "name": "Moussa Diop",
+   "phone": "77 123 45 67",
+   "active": true
+  },
+  {
+   "id": "00000007-0000-4000-8000-900000000002",
+   "name": "Awa Ndiaye",
+   "phone": "78 234 56 78",
+   "active": true
+  }
+ ],
+ "settings": [
+  {
+   "key": "storeName",
+   "value": "Dakar Shop"
+  },
+  {
+   "key": "supportWhatsApp",
+   "value": "221775784158"
+  },
+  {
+   "key": "codGlobal",
+   "value": "true"
+  },
+  {
+   "key": "bonusEarnPercent",
+   "value": "2"
+  },
+  {
+   "key": "packageTiers",
+   "value": "[{\"minItems\":3,\"pct\":5},{\"minItems\":5,\"pct\":8},{\"minItems\":8,\"pct\":10}]"
+  }
+ ]
+}

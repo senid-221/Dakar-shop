@@ -185,7 +185,7 @@ type ChatMessage = { role: "user" | "bot"; text: string; actions?: { label: stri
 export function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: "bot", text: "Hello! I am the Citymarket Dakar assistant. I can help with products, orders, delivery, payments, packages, coupons and gifts. How can I help?" },
+    { role: "bot", text: "Hello! I am the Citymarket Dakar assistant. Ask me anything about the shop — our bakery products and prices, how to order, delivery areas and fees, payments (Orange Money, Wave, cash on delivery), packages, coupons and gifts, order status, where we operate, who runs the shop and who built this app. How can I help?" },
   ]);
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);

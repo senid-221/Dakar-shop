@@ -81,6 +81,6 @@ export const presetPackages = [
 ];
 
 export const accounts = [
-  { role: "admin", name: "Store Admin", phone: "775784158", password: "Admin@2026" },
+  { role: "admin", name: "RWAMIGABO Innocent", phone: "775784158", password: "Admin@2026" },
   { role: "customer", name: "Aminata Fall", phone: "770001122", password: "Demo@2026" },
 ];

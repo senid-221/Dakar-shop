@@ -1,4 +1,4 @@
-import { fail, ok, readJson, str, int, uid, newId, now, ORDER_STATUSES, STATUS_LABELS } from "../lib/util.mjs";
+import { fail, ok, readJson, str, int, uid, digits, newId, now, hashPassword, newSalt, ORDER_STATUSES, STATUS_LABELS } from "../lib/util.mjs";
 import { findOne, findMany, countRows, insertRow, insertRows, updateRow, deleteRow, requireAdmin, getSettings, encodeSetting, notify, addBonus, bonusBalance } from "../lib/db.mjs";
 import { resetCatalog } from "../lib/bootstrap.mjs";
 
@@ -13,6 +13,31 @@ export async function adminRoutes(ctx, segments) {
   if (head === "reset-catalog" && request.method === "POST" && !second) {
     await resetCatalog(supabase);
     return ok({ reset: true });
+  }
+
+  // Admin-gated account manager: create or update a login by phone. The password is
+  // hashed server-side (PBKDF2 + fresh salt) and never persisted anywhere but the users row.
+  if (head === "admin-account" && request.method === "POST" && !second) {
+    const body = (await readJson(request)) || {};
+    const phone = digits(body.phone, 15);
+    const name = str(body.name, 80);
+    const password = typeof body.password === "string" ? body.password : "";
+    const role = body.role === "customer" ? "customer" : "admin";
+    if (phone.length < 9) return fail("invalid_phone");
+    if (name.length < 2) return fail("invalid_name");
+    if (password.length < 6) return fail("weak_password");
+    const salt = newSalt();
+    const passHash = await hashPassword(password, salt);
+    const existing = await findOne(supabase, "users", "id", { phone });
+    if (existing) {
+      const updated = await updateRow(supabase, "users", { name, role, pass_hash: passHash, pass_salt: salt }, { id: existing.id }, "id,name,phone,role");
+      return ok({ user: updated, created: false });
+    }
+    const created = await insertRow(supabase, "users", {
+      id: newId(), role, name, phone, email: null,
+      pass_hash: passHash, pass_salt: salt, created_at: now(),
+    }, "id,name,phone,role");
+    return ok({ user: created, created: true });
   }
 
   if (head === "stats" && request.method === "GET") {

@@ -1,0 +1,13 @@
+{
+  "name": "citymarket-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "setup": "node setup-neon.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  }
+}

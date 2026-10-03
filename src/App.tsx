@@ -20,18 +20,18 @@ function Routes() {
 
   useEffect(() => {
     const titles: Record<string, string> = {
-      "/": "Dakar Shop — Dakar online market & delivery",
-      "/shop": "Shop — Dakar Shop",
-      "/package": "Build a Package — Dakar Shop",
-      "/cart": "Your cart — Dakar Shop",
-      "/checkout": "Checkout — Dakar Shop",
-      "/track": "Track your order — Dakar Shop",
-      "/login": "Sign in — Dakar Shop",
-      "/delivery-areas": "Delivery areas — Dakar Shop",
+      "/": "Citymarket Dakar — bakery & delivery in Dakar",
+      "/shop": "Shop — Citymarket Dakar",
+      "/package": "Build a Package — Citymarket Dakar",
+      "/cart": "Your cart — Citymarket Dakar",
+      "/checkout": "Checkout — Citymarket Dakar",
+      "/track": "Track your order — Citymarket Dakar",
+      "/login": "Sign in — Citymarket Dakar",
+      "/delivery-areas": "Delivery areas — Citymarket Dakar",
     };
     document.title = pathname.startsWith("/admin")
-      ? "Admin — Dakar Shop"
-      : titles[pathname] || (pathname.startsWith("/product/") ? "Product — Dakar Shop" : "Dakar Shop");
+      ? "Admin — Citymarket Dakar"
+      : titles[pathname] || (pathname.startsWith("/product/") ? "Product — Citymarket Dakar" : "Citymarket Dakar");
   }, [pathname]);
 
   if (pathname === "/") return <HomePage />;

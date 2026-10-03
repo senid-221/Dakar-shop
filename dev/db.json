@@ -45,38 +45,6 @@
    "description": "Bread, cakes, pastries and fresh bakes from Dakar ovens.",
    "icon": "croissant",
    "sort": 1
-  },
-  {
-   "id": "00000001-0000-4000-8000-900000000002",
-   "slug": "milky",
-   "name": "Milky Products",
-   "description": "Milk, yogurt, cheese, butter and cream.",
-   "icon": "milk",
-   "sort": 2
-  },
-  {
-   "id": "00000001-0000-4000-8000-900000000003",
-   "slug": "electronics",
-   "name": "Electronics",
-   "description": "TVs, laptops, audio and computer equipment.",
-   "icon": "tv",
-   "sort": 3
-  },
-  {
-   "id": "00000001-0000-4000-8000-900000000004",
-   "slug": "phones",
-   "name": "Mobile Phones",
-   "description": "Smartphones, feature phones and accessories.",
-   "icon": "smartphone",
-   "sort": 4
-  },
-  {
-   "id": "00000001-0000-4000-8000-900000000005",
-   "slug": "clothes",
-   "name": "Clothes",
-   "description": "Men, women and children fashion and shoes.",
-   "icon": "shirt",
-   "sort": 5
   }
  ],
  "products": [
@@ -199,366 +167,6 @@
    "rating": 4.6,
    "sold_count": 0,
    "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000009",
-   "category_id": "00000001-0000-4000-8000-900000000002",
-   "name": "Whole Milk 1L",
-   "slug": "whole-milk-1l",
-   "description": "Pasteurised whole milk, kept cold from dairy to door.",
-   "image_url": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=800&q=60",
-   "price": 1000,
-   "compare_price": null,
-   "stock": 100,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000010",
-   "category_id": "00000001-0000-4000-8000-900000000002",
-   "name": "Natural Yogurt 500g",
-   "slug": "natural-yogurt-500g",
-   "description": "Thick set yogurt with live cultures, no added sugar.",
-   "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=60",
-   "price": 1200,
-   "compare_price": null,
-   "stock": 70,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000011",
-   "category_id": "00000001-0000-4000-8000-900000000002",
-   "name": "Semi-Soft Cheese 250g",
-   "slug": "semi-soft-cheese-250g",
-   "description": "Creamy table cheese for sandwiches and salads.",
-   "image_url": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=800&q=60",
-   "price": 3500,
-   "compare_price": null,
-   "stock": 35,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000012",
-   "category_id": "00000001-0000-4000-8000-900000000002",
-   "name": "Churned Butter 250g",
-   "slug": "churned-butter-250g",
-   "description": "Slow-churned butter with a clean, fresh finish.",
-   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2023_Mas%C5%82o_w_maselniczce.jpg/960px-2023_Mas%C5%82o_w_maselniczce.jpg",
-   "price": 2000,
-   "compare_price": null,
-   "stock": 50,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000013",
-   "category_id": "00000001-0000-4000-8000-900000000002",
-   "name": "Whipping Cream 250ml",
-   "slug": "whipping-cream-250ml",
-   "description": "35% fat cream that whips up light for desserts and sauces.",
-   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/And_some_whipped_cream_%284315201282%29.jpg/960px-And_some_whipped_cream_%284315201282%29.jpg",
-   "price": 2500,
-   "compare_price": null,
-   "stock": 40,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000014",
-   "category_id": "00000001-0000-4000-8000-900000000003",
-   "name": "Smart TV 43\" 4K",
-   "slug": "smart-tv-43",
-   "description": "43-inch 4K UHD smart TV with built-in streaming apps and 2 HDMI ports.",
-   "image_url": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=60",
-   "price": 185000,
-   "compare_price": 210000,
-   "stock": 12,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000015",
-   "category_id": "00000001-0000-4000-8000-900000000003",
-   "name": "Business Laptop 14\"",
-   "slug": "business-laptop-14",
-   "description": "Lightweight 14-inch laptop, 16GB RAM, 512GB SSD — work and study ready.",
-   "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=60",
-   "price": 450000,
-   "compare_price": null,
-   "stock": 8,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000016",
-   "category_id": "00000001-0000-4000-8000-900000000003",
-   "name": "Desktop Computer Set",
-   "slug": "desktop-computer-set",
-   "description": "Complete desktop set with tower, 24-inch monitor, keyboard and mouse.",
-   "image_url": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=800&q=60",
-   "price": 320000,
-   "compare_price": null,
-   "stock": 6,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000017",
-   "category_id": "00000001-0000-4000-8000-900000000003",
-   "name": "Portable Bluetooth Speaker",
-   "slug": "bluetooth-speaker",
-   "description": "Water-resistant speaker with 12-hour battery and deep bass.",
-   "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=60",
-   "price": 25000,
-   "compare_price": 30000,
-   "stock": 30,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000018",
-   "category_id": "00000001-0000-4000-8000-900000000003",
-   "name": "Over-Ear Headphones",
-   "slug": "over-ear-headphones",
-   "description": "Cushioned over-ear headphones with microphone for calls.",
-   "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=60",
-   "price": 15000,
-   "compare_price": null,
-   "stock": 40,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000019",
-   "category_id": "00000001-0000-4000-8000-900000000003",
-   "name": "Wireless Mouse",
-   "slug": "wireless-mouse",
-   "description": "Silent-click wireless mouse with USB receiver, 12-month battery.",
-   "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=60",
-   "price": 7500,
-   "compare_price": null,
-   "stock": 55,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000020",
-   "category_id": "00000001-0000-4000-8000-900000000004",
-   "name": "Smartphone X10 128GB",
-   "slug": "smartphone-x10",
-   "description": "6.5-inch smartphone, 128GB storage, dual SIM, 5000mAh battery.",
-   "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=60",
-   "price": 95000,
-   "compare_price": null,
-   "stock": 20,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000021",
-   "category_id": "00000001-0000-4000-8000-900000000004",
-   "name": "Smartphone Pro 5G 256GB",
-   "slug": "smartphone-pro-5g",
-   "description": "Flagship 5G phone with triple camera and 256GB storage.",
-   "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=60",
-   "price": 245000,
-   "compare_price": 265000,
-   "stock": 10,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000022",
-   "category_id": "00000001-0000-4000-8000-900000000004",
-   "name": "Feature Phone Dual SIM",
-   "slug": "feature-phone-dual",
-   "description": "Reliable dual-SIM feature phone with torch and 3-week standby.",
-   "image_url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=60",
-   "price": 15000,
-   "compare_price": null,
-   "stock": 35,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000023",
-   "category_id": "00000001-0000-4000-8000-900000000004",
-   "name": "Fast Charger 25W USB-C",
-   "slug": "fast-charger-25w",
-   "description": "25W USB-C wall charger with 1m braided cable.",
-   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/SAMSUNG_EP-T4510_45W_POWER_ADAPER_BLACK_%26_USB_C_TO_C_CABLE.jpg/960px-SAMSUNG_EP-T4510_45W_POWER_ADAPER_BLACK_%26_USB_C_TO_C_CABLE.jpg",
-   "price": 5000,
-   "compare_price": null,
-   "stock": 80,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000024",
-   "category_id": "00000001-0000-4000-8000-900000000004",
-   "name": "Silicone Phone Case",
-   "slug": "silicone-phone-case",
-   "description": "Shock-absorbing silicone case with raised camera lip.",
-   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Mobile_phone_case.jpg/960px-Mobile_phone_case.jpg",
-   "price": 3500,
-   "compare_price": null,
-   "stock": 100,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000025",
-   "category_id": "00000001-0000-4000-8000-900000000004",
-   "name": "Wireless Earphones",
-   "slug": "earphones-buds",
-   "description": "True-wireless earbuds with charging case and touch controls.",
-   "image_url": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=60",
-   "price": 9000,
-   "compare_price": 12000,
-   "stock": 60,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000026",
-   "category_id": "00000001-0000-4000-8000-900000000005",
-   "name": "Men's Cotton T-Shirt",
-   "slug": "mens-cotton-tshirt",
-   "description": "Breathable 100% cotton tee, pre-shrunk.",
-   "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=60",
-   "price": 5000,
-   "compare_price": null,
-   "stock": 70,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000027",
-   "category_id": "00000001-0000-4000-8000-900000000005",
-   "name": "Women's Summer Dress",
-   "slug": "womens-summer-dress",
-   "description": "Light flowing dress in wax-inspired print, perfect for Dakar heat.",
-   "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=60",
-   "price": 12000,
-   "compare_price": 15000,
-   "stock": 40,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000028",
-   "category_id": "00000001-0000-4000-8000-900000000005",
-   "name": "Men's Classic Shirt",
-   "slug": "mens-classic-shirt",
-   "description": "Smart-casual button shirt in crisp cotton blend.",
-   "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=60",
-   "price": 9000,
-   "compare_price": null,
-   "stock": 50,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000029",
-   "category_id": "00000001-0000-4000-8000-900000000005",
-   "name": "Chino Trousers",
-   "slug": "chino-trousers",
-   "description": "Slim-fit stretch chinos for office or weekend.",
-   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Trousers-colourisolated.jpg/960px-Trousers-colourisolated.jpg",
-   "price": 11000,
-   "compare_price": null,
-   "stock": 45,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000030",
-   "category_id": "00000001-0000-4000-8000-900000000005",
-   "name": "Urban Sneakers",
-   "slug": "urban-sneakers",
-   "description": "Cushioned everyday sneakers with grippy sole.",
-   "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=60",
-   "price": 25000,
-   "compare_price": 29000,
-   "stock": 30,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000031",
-   "category_id": "00000001-0000-4000-8000-900000000005",
-   "name": "Leather Handbag",
-   "slug": "leather-handbag",
-   "description": "Structured vegan-leather handbag with inner zip pocket.",
-   "image_url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=60",
-   "price": 15000,
-   "compare_price": null,
-   "stock": 25,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
-  },
-  {
-   "id": "00000002-0000-4000-8000-900000000032",
-   "category_id": "00000001-0000-4000-8000-900000000005",
-   "name": "Kids Printed T-Shirt",
-   "slug": "kids-printed-tshirt",
-   "description": "Soft kids tee with playful print, ages 4-10.",
-   "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kids_character_clothing_in_Colma_Target_store.jpg/960px-Kids_character_clothing_in_Colma_Target_store.jpg",
-   "price": 3500,
-   "compare_price": null,
-   "stock": 60,
-   "active": true,
-   "rating": 4.6,
-   "sold_count": 0,
-   "created_at": "2026-10-01T09:00:00.000Z"
   }
  ],
  "product_variants": [
@@ -593,166 +201,6 @@
    "label": "Chocolate sprinkle",
    "price_delta": 100,
    "stock": 40
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000005",
-   "product_id": "00000002-0000-4000-8000-900000000010",
-   "kind": "flavor",
-   "label": "Natural",
-   "price_delta": 0,
-   "stock": 40
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000006",
-   "product_id": "00000002-0000-4000-8000-900000000010",
-   "kind": "flavor",
-   "label": "Strawberry",
-   "price_delta": 200,
-   "stock": 30
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000007",
-   "product_id": "00000002-0000-4000-8000-900000000015",
-   "kind": "memory",
-   "label": "16GB / 512GB",
-   "price_delta": 0,
-   "stock": 5
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000008",
-   "product_id": "00000002-0000-4000-8000-900000000015",
-   "kind": "memory",
-   "label": "32GB / 1TB",
-   "price_delta": 90000,
-   "stock": 3
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000009",
-   "product_id": "00000002-0000-4000-8000-900000000020",
-   "kind": "color",
-   "label": "Midnight",
-   "price_delta": 0,
-   "stock": 10
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000010",
-   "product_id": "00000002-0000-4000-8000-900000000020",
-   "kind": "color",
-   "label": "Ocean Blue",
-   "price_delta": 0,
-   "stock": 10
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000011",
-   "product_id": "00000002-0000-4000-8000-900000000024",
-   "kind": "color",
-   "label": "Black",
-   "price_delta": 0,
-   "stock": 40
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000012",
-   "product_id": "00000002-0000-4000-8000-900000000024",
-   "kind": "color",
-   "label": "Green",
-   "price_delta": 0,
-   "stock": 30
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000013",
-   "product_id": "00000002-0000-4000-8000-900000000024",
-   "kind": "color",
-   "label": "Sand",
-   "price_delta": 0,
-   "stock": 30
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000014",
-   "product_id": "00000002-0000-4000-8000-900000000026",
-   "kind": "size",
-   "label": "M",
-   "price_delta": 0,
-   "stock": 25
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000015",
-   "product_id": "00000002-0000-4000-8000-900000000026",
-   "kind": "size",
-   "label": "L",
-   "price_delta": 0,
-   "stock": 25
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000016",
-   "product_id": "00000002-0000-4000-8000-900000000026",
-   "kind": "size",
-   "label": "XL",
-   "price_delta": 0,
-   "stock": 20
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000017",
-   "product_id": "00000002-0000-4000-8000-900000000027",
-   "kind": "size",
-   "label": "S",
-   "price_delta": 0,
-   "stock": 15
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000018",
-   "product_id": "00000002-0000-4000-8000-900000000027",
-   "kind": "size",
-   "label": "M",
-   "price_delta": 0,
-   "stock": 15
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000019",
-   "product_id": "00000002-0000-4000-8000-900000000027",
-   "kind": "size",
-   "label": "L",
-   "price_delta": 0,
-   "stock": 10
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000020",
-   "product_id": "00000002-0000-4000-8000-900000000030",
-   "kind": "size",
-   "label": "41",
-   "price_delta": 0,
-   "stock": 10
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000021",
-   "product_id": "00000002-0000-4000-8000-900000000030",
-   "kind": "size",
-   "label": "43",
-   "price_delta": 0,
-   "stock": 10
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000022",
-   "product_id": "00000002-0000-4000-8000-900000000030",
-   "kind": "size",
-   "label": "45",
-   "price_delta": 0,
-   "stock": 10
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000023",
-   "product_id": "00000002-0000-4000-8000-900000000032",
-   "kind": "size",
-   "label": "4-6y",
-   "price_delta": 0,
-   "stock": 20
-  },
-  {
-   "id": "00000003-0000-4000-8000-900000000024",
-   "product_id": "00000002-0000-4000-8000-900000000032",
-   "kind": "size",
-   "label": "7-10y",
-   "price_delta": 0,
-   "stock": 40
   }
  ],
  "favorites": [],
@@ -761,7 +209,7 @@
    "id": "00000009-0000-4000-8000-900000000001",
    "user_id": null,
    "name": "Dakar Breakfast Box",
-   "description": "Baguettes, croissants, milk and butter — a week of mornings sorted.",
+   "description": "Baguettes, croissants and pains au chocolat — a week of mornings sorted.",
    "discount_percent": 0,
    "active": true,
    "created_at": "2026-10-01T09:00:00.000Z"
@@ -769,8 +217,8 @@
   {
    "id": "00000009-0000-4000-8000-900000000002",
    "user_id": null,
-   "name": "Office Refresh Pack",
-   "description": "Earbuds, mouse and cookies for the team.",
+   "name": "Sweet Treats Pack",
+   "description": "Donuts, cookies and muffins for the whole team.",
    "discount_percent": 0,
    "active": true,
    "created_at": "2026-10-01T09:00:00.000Z"
@@ -794,35 +242,28 @@
   {
    "id": "0000000a-0000-4000-8000-900000000003",
    "package_id": "00000009-0000-4000-8000-900000000001",
-   "product_id": "00000002-0000-4000-8000-900000000009",
+   "product_id": "00000002-0000-4000-8000-900000000005",
    "variant_id": null,
    "qty": 2
   },
   {
    "id": "0000000a-0000-4000-8000-900000000004",
-   "package_id": "00000009-0000-4000-8000-900000000001",
-   "product_id": "00000002-0000-4000-8000-900000000012",
+   "package_id": "00000009-0000-4000-8000-900000000002",
+   "product_id": "00000002-0000-4000-8000-900000000006",
    "variant_id": null,
-   "qty": 1
+   "qty": 3
   },
   {
    "id": "0000000a-0000-4000-8000-900000000005",
    "package_id": "00000009-0000-4000-8000-900000000002",
-   "product_id": "00000002-0000-4000-8000-900000000025",
+   "product_id": "00000002-0000-4000-8000-900000000007",
    "variant_id": null,
-   "qty": 1
+   "qty": 2
   },
   {
    "id": "0000000a-0000-4000-8000-900000000006",
    "package_id": "00000009-0000-4000-8000-900000000002",
-   "product_id": "00000002-0000-4000-8000-900000000019",
-   "variant_id": null,
-   "qty": 1
-  },
-  {
-   "id": "0000000a-0000-4000-8000-900000000007",
-   "package_id": "00000009-0000-4000-8000-900000000002",
-   "product_id": "00000002-0000-4000-8000-900000000007",
+   "product_id": "00000002-0000-4000-8000-900000000008",
    "variant_id": null,
    "qty": 2
   }
@@ -1075,7 +516,7 @@
  "settings": [
   {
    "key": "storeName",
-   "value": "Dakar Shop"
+   "value": "Citymarket Dakar"
   },
   {
    "key": "supportWhatsApp",

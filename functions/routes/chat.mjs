@@ -25,7 +25,7 @@ export async function chatRoutes(ctx, segments) {
   }
 
   if (/(hello|hi|salam|good (morning|afternoon|evening))/.test(message)) {
-    return ok({ reply: `Hello! Welcome to Dakar Shop. ${HELP}`, actions: [] });
+    return ok({ reply: `Hello! Welcome to Citymarket Dakar. ${HELP}`, actions: [] });
   }
 
   if (/(coupon|promo|discount code)/.test(message)) {

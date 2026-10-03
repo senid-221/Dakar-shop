@@ -63,7 +63,7 @@ export async function publicRoutes(ctx, segments, url) {
         codGlobal: settings.codGlobal !== false,
         bonusEarnPercent: settings.bonusEarnPercent ?? 2,
         supportWhatsApp: settings.supportWhatsApp || "",
-        storeName: settings.storeName || "Dakar Shop",
+        storeName: settings.storeName || "Citymarket Dakar",
       },
     });
   }

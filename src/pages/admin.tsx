@@ -49,7 +49,7 @@ export function AdminPage() {
       <div className="mx-auto max-w-md px-4 py-16 text-center">
         <ShieldCheck className="mx-auto h-10 w-10 text-destructive" />
         <h1 className="mt-3 text-xl font-extrabold">Admin access only</h1>
-        <p className="mt-1 text-sm text-muted-foreground">This area is restricted to Dakar Shop staff. You are signed in as a customer.</p>
+        <p className="mt-1 text-sm text-muted-foreground">This area is restricted to Citymarket Dakar staff. You are signed in as a customer.</p>
         <Button className="mt-4" onClick={() => navigate("/account")}>Go to my account</Button>
       </div>
     );
@@ -63,7 +63,7 @@ export function AdminPage() {
         <aside className="hidden w-56 shrink-0 border-r border-white/10 bg-[#101828] p-4 lg:block">
           <div className="mb-5 flex items-center gap-2 px-2">
             <ShieldCheck className="h-5 w-5 text-emerald-400" />
-            <span className="font-extrabold tracking-tight">Dakar Admin</span>
+            <span className="font-extrabold tracking-tight">Citymarket Admin</span>
           </div>
           <nav className="space-y-1">
             {NAV.map((item) => (

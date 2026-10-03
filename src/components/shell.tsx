@@ -28,7 +28,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
       </svg>
       {!compact && (
         <span className="font-display text-[19px] font-bold tracking-tight text-foreground">
-          Dakar<span className="text-primary"> Shop</span>
+          Citymarket<span className="text-primary"> Dakar</span>
         </span>
       )}
     </span>
@@ -49,7 +49,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/70 bg-[#fbeaf2]/85 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center gap-3 px-4">
-        <Link to="/" ariaLabel="Dakar Shop home">
+        <Link to="/" ariaLabel="Citymarket Dakar home">
           <Logo />
         </Link>
         <nav className="ml-4 hidden items-center gap-1 md:flex">
@@ -141,7 +141,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-6 px-4 py-8 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <Logo />
-          <p className="mt-2 text-sm text-muted-foreground">Dakar's online market and delivery platform. Order today, delivered to your door.</p>
+          <p className="mt-2 text-sm text-muted-foreground">Dakar's online bakery and delivery platform. Order today, delivered to your door.</p>
         </div>
         <div className="text-sm">
           <h3 className="font-bold">WhatsApp / Admin</h3>
@@ -159,7 +159,7 @@ export function Footer() {
           <a className="mt-1 block text-primary underline-offset-2 hover:underline" href="https://wa.me/250726969060">WhatsApp: +250 72 696 90 60</a>
         </div>
       </div>
-      <p className="pb-4 text-center text-xs text-muted-foreground">© 2026 Dakar Shop — Dakar, Senegal</p>
+      <p className="pb-4 text-center text-xs text-muted-foreground">© 2026 Citymarket Dakar — Dakar, Senegal</p>
     </footer>
   );
 }
@@ -185,7 +185,7 @@ type ChatMessage = { role: "user" | "bot"; text: string; actions?: { label: stri
 export function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: "bot", text: "Hello! I am the Dakar Shop assistant. I can help with products, orders, delivery, payments, packages, coupons and gifts. How can I help?" },
+    { role: "bot", text: "Hello! I am the Citymarket Dakar assistant. I can help with products, orders, delivery, payments, packages, coupons and gifts. How can I help?" },
   ]);
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
@@ -222,7 +222,7 @@ export function ChatWidget() {
       </button>
       {open && (
         <div className="fade-up fixed bottom-52 right-4 z-40 flex h-[420px] w-[calc(100vw-2rem)] max-w-sm flex-col overflow-hidden rounded-3xl border border-border bg-card shadow-xl md:bottom-40">
-          <div className="border-b border-border px-4 py-3 font-display text-sm font-bold">Dakar Shop Assistant</div>
+          <div className="border-b border-border px-4 py-3 font-display text-sm font-bold">Citymarket Dakar Assistant</div>
           <div className="flex-1 space-y-3 overflow-y-auto p-4">
             {messages.map((message, index) => (
               <div key={index} className={message.role === "user" ? "ml-8 rounded-lg bg-primary px-3 py-2 text-sm text-primary-foreground" : "mr-4 rounded-lg bg-secondary px-3 py-2 text-sm"}>

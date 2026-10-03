@@ -1,5 +1,6 @@
 import { fail, ok, readJson, str, int, uid, newId, now, ORDER_STATUSES, STATUS_LABELS } from "../lib/util.mjs";
 import { findOne, findMany, countRows, insertRow, insertRows, updateRow, deleteRow, requireAdmin, getSettings, encodeSetting, notify, addBonus, bonusBalance } from "../lib/db.mjs";
+import { resetCatalog } from "../lib/bootstrap.mjs";
 
 export async function adminRoutes(ctx, segments) {
   const { supabase, request } = ctx;
@@ -8,6 +9,11 @@ export async function adminRoutes(ctx, segments) {
   const admin = auth.user;
   const [head, second, third] = segments;
   const url = new URL(request.url);
+
+  if (head === "reset-catalog" && request.method === "POST" && !second) {
+    await resetCatalog(supabase);
+    return ok({ reset: true });
+  }
 
   if (head === "stats" && request.method === "GET") {
     const today = new Date(); today.setHours(0, 0, 0, 0);
@@ -410,6 +416,7 @@ export async function adminRoutes(ctx, segments) {
   if (head === "settings" && request.method === "PATCH") {
     const body = (await readJson(request)) || {};
     const settings = await getSettings(supabase);
+    if (body.storeName !== undefined) settings.storeName = str(body.storeName, 60) || settings.storeName;
     if (body.codGlobal !== undefined) settings.codGlobal = body.codGlobal === true;
     if (body.packageTiers !== undefined && Array.isArray(body.packageTiers)) {
       settings.packageTiers = body.packageTiers.slice(0, 5).map((t) => ({ minItems: int(t.minItems, { min: 2, max: 30 }) || 3, pct: int(t.pct, { min: 1, max: 50 }) || 5 }));
@@ -418,8 +425,8 @@ export async function adminRoutes(ctx, segments) {
     for (const [key, raw] of Object.entries(settings)) {
       const value = encodeSetting(raw);
       const existing = await findOne(supabase, "settings", "key", { key });
-      if (existing) await updateRow(supabase, "settings", { value }, { key });
-      else await insertRow(supabase, "settings", { key, value });
+      if (existing) await updateRow(supabase, "settings", { value }, { key }, "key");
+      else await insertRow(supabase, "settings", { key, value }, "key");
     }
     return ok({});
   }

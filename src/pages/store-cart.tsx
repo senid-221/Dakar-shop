@@ -731,7 +731,7 @@ function OrderPlaced({ order }: { order: { id: string; code: string; total: numb
             <ol className="mt-2 list-decimal space-y-1 pl-5 text-muted-foreground">
               <li>
                 Open {label} and send <span className="font-semibold text-foreground">{fcfa(order.total)}</span> to{" "}
-                <span className="font-semibold text-foreground">{MERCHANT_NUMBER}</span> (Dakar Shop).
+                <span className="font-semibold text-foreground">{MERCHANT_NUMBER}</span> (Citymarket Dakar).
               </li>
               <li>Reference: order {order.code}.</li>
               <li>Tap the button below so we know to look for it.</li>

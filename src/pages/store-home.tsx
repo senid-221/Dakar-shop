@@ -44,10 +44,10 @@ export function HomePage() {
             <MapPin className="h-3.5 w-3.5" /> Delivery across Dakar &amp; suburbs
           </p>
           <h1 className="font-display mt-5 text-4xl font-bold leading-tight tracking-tight md:text-5xl">
-            Dakar's market, <span className="text-terra">delivered to your door</span>
+            Dakar's bakery, <span className="text-terra">delivered to your door</span>
           </h1>
           <p className="mt-4 max-w-md text-[15px] leading-relaxed text-muted-foreground">
-            Fresh bakery and dairy, phones, electronics and fashion from trusted shops. Build your own package, send it as a gift, pay with Orange Money, Wave or cash on delivery.
+            Fresh bread, cakes, pastries and donuts baked daily in Dakar. Build your own package, send it as a gift, pay with Orange Money, Wave or cash on delivery.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <Link to="/shop"><Button size="lg">Start to Order <ArrowRight className="ml-1 h-4 w-4" /></Button></Link>

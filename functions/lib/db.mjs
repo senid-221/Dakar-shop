@@ -77,6 +77,15 @@ export async function deleteRow(supabase, table, filters) {
   return result.data;
 }
 
+// PostgREST refuses an unfiltered delete, so collect the ids first and delete by id.
+export async function clearTable(supabase, table) {
+  const rows = await findMany(supabase, table, "id", { limit: 2000 });
+  const ids = rows.map((r) => r.id);
+  if (!ids.length) return;
+  const result = await supabase.from(table).delete().in("id", ids).select("id");
+  if (result.error) throw Object.assign(new Error("db_error"), { status: 503 });
+}
+
 // Application identity: session token issued by /auth/login. Carried in x-sm-token, not
 // Authorization, because the platform adapter strips Authorization (it carries the DB anon key).
 export async function getSessionUser(supabase, request) {

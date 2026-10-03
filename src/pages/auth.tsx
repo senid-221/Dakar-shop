@@ -36,7 +36,7 @@ export function LoginPage() {
       const res = mode === "login" ? await api("/auth/login", { body: { phone, password: form.password }, auth: false }) : await api("/auth/register", { body: { name: form.name.trim(), phone, password: form.password }, auth: false });
       setToken(res.token);
       setUser(res.user);
-      toast.success(mode === "login" ? `Welcome back, ${res.user.name.split(" ")[0]}!` : "Account created — welcome to Dakar Shop!");
+      toast.success(mode === "login" ? `Welcome back, ${res.user.name.split(" ")[0]}!` : "Account created — welcome to Citymarket Dakar!");
       navigate(res.user.role === "admin" && next === "/" ? "/admin" : next);
     } catch (error) {
       toast.error(errorMessage(error));

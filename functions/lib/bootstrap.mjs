@@ -1,5 +1,5 @@
 import { hashPassword } from "./util.mjs";
-import { findMany, insertRows, encodeSetting } from "./db.mjs";
+import { findMany, insertRows, clearTable, encodeSetting } from "./db.mjs";
 import * as data from "./seed-data.mjs";
 
 // First-run catalog bootstrap: the cloud migration API is DDL-only, so seed rows
@@ -30,10 +30,9 @@ export function ensureSeeded(supabase) {
   return seedPromise;
 }
 
-async function seed(supabase) {
-  const existing = await findMany(supabase, "categories", "id", { limit: 1 });
-  if (existing.length) return;
-
+// Build the catalog-domain rows (categories → products → variants → coupons → preset
+// packages). Shared by first-run seeding and the admin catalog reset so both stay identical.
+function buildCatalog() {
   const categories = data.categories.map((c) => ({ id: sid("categories"), slug: c.slug, name: c.name, description: c.description, icon: c.icon, sort: c.sort }));
   const categoryBySlug = new Map(categories.map((c) => [c.slug, c]));
 
@@ -53,8 +52,6 @@ async function seed(supabase) {
   }
   const productBySlug = new Map(products.map((p) => [p.slug, p]));
 
-  const zones = data.zones.map((z) => ({ id: sid("delivery_zones"), slug: z.slug, name: z.name, fee: z.fee, cod_enabled: z.cod, lat: z.lat, lng: z.lng, radius_km: z.radius, active: true }));
-
   const coupons = data.coupons.map((c) => ({
     id: sid("coupons"), code: c.code, kind: c.kind, value: c.value, min_order: c.min,
     expires_at: new Date(new Date(BASE).getTime() + c.days * 86400000).toISOString(),
@@ -62,6 +59,33 @@ async function seed(supabase) {
     category_id: c.categorySlug ? categoryBySlug.get(c.categorySlug).id : null,
   }));
 
+  const packages = [];
+  const packageItems = [];
+  for (const preset of data.presetPackages) {
+    const packageId = sid("packages");
+    packages.push({ id: packageId, user_id: null, name: preset.name, description: preset.description, discount_percent: 0, active: true, created_at: BASE });
+    for (const item of preset.items) {
+      packageItems.push({ id: sid("package_items"), package_id: packageId, product_id: productBySlug.get(item.slug).id, variant_id: null, qty: item.qty });
+    }
+  }
+
+  return { categories, products, variants, coupons, packages, packageItems };
+}
+
+async function insertCatalog(supabase, c) {
+  await insertRows(supabase, "categories", c.categories);
+  await insertRows(supabase, "products", c.products);
+  await insertRows(supabase, "product_variants", c.variants);
+  await insertRows(supabase, "coupons", c.coupons);
+  await insertRows(supabase, "packages", c.packages);
+  await insertRows(supabase, "package_items", c.packageItems);
+}
+
+async function seed(supabase) {
+  const existing = await findMany(supabase, "categories", "id", { limit: 1 });
+  if (existing.length) return;
+
+  const zones = data.zones.map((z) => ({ id: sid("delivery_zones"), slug: z.slug, name: z.name, fee: z.fee, cod_enabled: z.cod, lat: z.lat, lng: z.lng, radius_km: z.radius, active: true }));
   const campaigns = data.campaigns.map((c) => ({ id: sid("reward_campaigns"), name: c.name, kind: c.kind, value: c.value, threshold: c.threshold, active: c.active, created_at: BASE }));
   const staff = data.staff.map((m) => ({ id: sid("delivery_staff"), name: m.name, phone: m.phone, active: m.active }));
   const settings = Object.entries(data.settings).map(([key, value]) => ({ key, value: encodeSetting(value) }));
@@ -74,25 +98,21 @@ async function seed(supabase) {
     });
   }
 
-  const packages = [];
-  const packageItems = [];
-  for (const preset of data.presetPackages) {
-    const packageId = sid("packages");
-    packages.push({ id: packageId, user_id: null, name: preset.name, description: preset.description, discount_percent: 0, active: true, created_at: BASE });
-    for (const item of preset.items) {
-      packageItems.push({ id: sid("package_items"), package_id: packageId, product_id: productBySlug.get(item.slug).id, variant_id: null, qty: item.qty });
-    }
-  }
-
   await insertRows(supabase, "users", users);
-  await insertRows(supabase, "categories", categories);
-  await insertRows(supabase, "products", products);
-  await insertRows(supabase, "product_variants", variants);
+  await insertCatalog(supabase, buildCatalog());
   await insertRows(supabase, "delivery_zones", zones);
-  await insertRows(supabase, "coupons", coupons);
   await insertRows(supabase, "reward_campaigns", campaigns);
   await insertRows(supabase, "delivery_staff", staff);
   await insertRows(supabase, "settings", settings, "key");
-  await insertRows(supabase, "packages", packages);
-  await insertRows(supabase, "package_items", packageItems);
+}
+
+// Admin-triggered catalog swap: wipe the catalog-domain tables and refill them from the
+// canonical seed. Leaves users, orders, zones, settings, staff and campaigns untouched.
+export async function resetCatalog(supabase) {
+  for (const table of ["package_items", "packages", "product_variants", "products", "coupons", "categories"]) {
+    await clearTable(supabase, table);
+  }
+  await insertCatalog(supabase, buildCatalog());
+  // Drop any memoized seed promise so a later ensureSeeded re-checks against the fresh catalog.
+  seedPromise = null;
 }

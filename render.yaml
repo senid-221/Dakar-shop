@@ -1,0 +1,23 @@
+# Render Blueprint — Citymarket Dakar (no-VPS managed hosting)
+# One web service runs server/index.mjs, which serves BOTH the built frontend
+# (dist/) and the API (/functions/*) on the same origin. Neon is the database.
+#
+# After Render creates the service, set the DATABASE_URL env var to your Neon
+# pooled connection string (it is intentionally NOT stored here).
+services:
+  - type: web
+    name: citymarket-dakar
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm ci && npm run build && npm --prefix server ci
+    startCommand: node server/index.mjs
+    healthCheckPath: /functions/v1/app/
+    envVars:
+      - key: NODE_VERSION
+        value: 22.12.0
+      - key: HOST
+        value: 0.0.0.0
+      # Render injects PORT automatically; server/index.mjs reads it.
+      - key: DATABASE_URL
+        sync: false
